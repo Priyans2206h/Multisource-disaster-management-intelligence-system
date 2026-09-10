@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  --background: #F8FAFC;
+  --surface: #FFFFFF;
+  --navy-950: #0B1220;
+  --navy-900: #111827;
+  --text-primary: #1F2937;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --border: #E2E8F0;
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --info: #0891B2;
+  --success: #16A34A;
+  --warning: #F59E0B;
+  --high: #EA580C;
+  --critical: #DC2626;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Map styling */
+.leaflet-container {
+  font-family: var(--font-sans) !important;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: #e5e7eb !important;
+}
+
+/* Hide map attribution */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Subtle pulse for critical new SOS */
+@keyframes subtle-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.08);
+    opacity: 0.85;
+  }
+}
+
+.animate-subtle-pulse {
+  animation: subtle-pulse 2s infinite ease-in-out;
+}
+
+/* Custom scrollbar for dense operational dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

@@ -1,0 +1,696 @@
+%PDF-1.4
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R] /Count 6 >> endobj
+3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 9 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+4 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 10 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 11 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+6 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 12 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+7 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 13 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+8 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Contents 14 0 R /Resources << /Font << /F1 15 0 R /F2 16 0 R >> /XObject << /SIHBulbLogo 17 0 R /SIHHeaderLogo 18 0 R >> >> >> endobj
+9 0 obj << /Length 1688 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+BT /F2 25.00 Tf 0.114 0.227 0.541 rg 180.00 488.00 Td (SMART INDIA HACKATHON 2026) Tj ET
+q 105.00 0 0 50.00 815.00 476.00 cm /SIHHeaderLogo Do Q
+BT /F2 23.00 Tf 0.000 0.000 0.000 rg 380.00 425.00 Td (TITLE PAGE) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 350.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 350.00 Td (Problem Statement ID -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 330.00 Td (26206) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 300.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 300.00 Td (Problem Statement Title -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 280.00 Td (Multisource Disaster Management Intelligence System) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 250.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 250.00 Td (Theme -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 230.00 Td (Disaster Management) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 200.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 200.00 Td (PS Category -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 180.00 Td (Software) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 150.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 150.00 Td (Team ID -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 130.00 Td ([Your Team ID / SIH2026-XXXX]) Tj ET
+BT /F2 15.00 Tf 0.000 0.000 0.000 rg 48.00 100.00 Td (*) Tj ET
+BT /F2 14.00 Tf 0.000 0.000 0.000 rg 64.00 100.00 Td (Team Name \(Registered on portal\) -) Tj ET
+BT /F1 12.50 Tf 0.114 0.439 0.722 rg 68.00 80.00 Td (Disaster Intelligence) Tj ET
+q 360.00 0 0 380.00 540.00 40.00 cm /SIHBulbLogo Do Q
+
+endstream
+endobj
+10 0 obj << /Length 7220 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+0.000 0.000 0.000 RG 1.000 1.000 1.000 rg 1.20 w
+120.00 495.00 m
+120.00 509.36 98.51 521.00 72.00 521.00 c
+45.49 521.00 24.00 509.36 24.00 495.00 c
+24.00 480.64 45.49 469.00 72.00 469.00 c
+98.51 469.00 120.00 480.64 120.00 495.00 c
+B
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 58.00 502.00 Td (Your) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 56.00 491.00 Td (Team) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 55.00 480.00 Td (Name) Tj ET
+q 95.00 0 0 45.00 825.00 480.00 cm /SIHHeaderLogo Do Q
+BT /F2 22.00 Tf 0.000 0.000 0.000 rg 280.00 488.00 Td (IDEA TITLE: MULTISOURCE DISASTER MANAGEMENT) Tj ET
+0.114 0.439 0.722 rg 0.00 0.00 960.00 24.00 re f
+BT /F1 9.50 Tf 1.000 1.000 1.000 rg 390.00 8.00 Td (@SIH Idea submission- Template  2) Tj ET
+BT /F2 9.50 Tf 1.000 1.000 1.000 rg 920.00 8.00 Td (2) Tj ET
+BT /F2 15.00 Tf 0.114 0.439 0.722 rg 48.00 448.00 Td (* Proposed Solution \(Describe your Idea/Solution/Prototype\)) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 45.00 275.00 380.00 re B
+0.114 0.439 0.722 rg 48.00 421.00 275.00 4.00 re f
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 62.00 402.00 Td (Detailed Explanation) Tj ET
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 62.00 386.00 Td (of Proposed Solution) Tj ET
+0.886 0.910 0.941 rg 62.00 375.00 247.00 1.00 re f
+BT /F2 11.00 Tf 0.114 0.439 0.722 rg 62.00 360.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.118 0.227 0.541 rg 72.00 360.00 Td (Unified 4-Tier Command Grid:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 345.00 Td (Dedicated synchronized interfaces for Citizens,) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 332.00 Td (First Responders, NGOs, and Municipal) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 319.00 Td (DEOC Coordinators.) Tj ET
+BT /F2 11.00 Tf 0.114 0.439 0.722 rg 62.00 288.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.118 0.227 0.541 rg 72.00 288.00 Td (End-to-End Coordination Loop:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 273.00 Td (Executes a rapid Detect ->) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 260.00 Td (Verify -> Map -> Prioritize) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 247.00 Td (-> Respond -> Coordinate operational pipeline.) Tj ET
+BT /F2 11.00 Tf 0.114 0.439 0.722 rg 62.00 216.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.118 0.227 0.541 rg 72.00 216.00 Td (Multi-Source Data Ingestion:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 201.00 Td (Aggregates open meteorological feeds, 1-touch) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 188.00 Td (citizen distress SOS, and verified) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 175.00 Td (crowdsourced hazard alerts.) Tj ET
+BT /F2 11.00 Tf 0.114 0.439 0.722 rg 62.00 144.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.118 0.227 0.541 rg 72.00 144.00 Td (Live Spatial Disaster Console:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 129.00 Td (Centralized Leaflet GIS map with) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 116.00 Td (toggleable layers for hazards, shelters,) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 72.00 103.00 Td (medical points, and rescue units.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 343.00 45.00 275.00 380.00 re B
+0.063 0.725 0.506 rg 343.00 421.00 275.00 4.00 re f
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 357.00 402.00 Td (How it Addresses) Tj ET
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 357.00 386.00 Td (the Core Problem) Tj ET
+0.886 0.910 0.941 rg 357.00 375.00 247.00 1.00 re f
+BT /F2 11.00 Tf 0.063 0.725 0.506 rg 357.00 360.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.024 0.373 0.275 rg 367.00 360.00 Td (Eliminates Fragmented Silos:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 345.00 Td (Replaces scattered phone calls and) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 332.00 Td (uncoordinated chats with a single) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 319.00 Td (real-time operational picture.) Tj ET
+BT /F2 11.00 Tf 0.063 0.725 0.506 rg 357.00 288.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.024 0.373 0.275 rg 367.00 288.00 Td (Solves Hardware GPS Drift:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 273.00 Td (Replaces erratic device GPS polling) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 260.00 Td (with deterministic City & Locality) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 247.00 Td (geocoding, preserving critical battery.) Tj ET
+BT /F2 11.00 Tf 0.063 0.725 0.506 rg 357.00 216.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.024 0.373 0.275 rg 367.00 216.00 Td (Prevents Shelter Overcrowding:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 201.00 Td (Real-time occupancy vs. capacity gauges) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 188.00 Td (redirect evacuees to underutilized shelters.) Tj ET
+BT /F2 11.00 Tf 0.063 0.725 0.506 rg 357.00 144.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.024 0.373 0.275 rg 367.00 144.00 Td (Streamlines Relief Allocation:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 129.00 Td (Directs clean drinking water tankers,) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 116.00 Td (trauma kits, and food depots) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 367.00 103.00 Td (based on verified demand.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 638.00 45.00 275.00 380.00 re B
+0.961 0.620 0.043 rg 638.00 421.00 275.00 4.00 re f
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 652.00 402.00 Td (Innovation & Uniqueness) Tj ET
+BT /F2 12.00 Tf 0.059 0.090 0.165 rg 652.00 386.00 Td (of the Solution) Tj ET
+0.886 0.910 0.941 rg 652.00 375.00 247.00 1.00 re f
+BT /F2 11.00 Tf 0.961 0.620 0.043 rg 652.00 360.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.573 0.251 0.055 rg 662.00 360.00 Td (Deterministic Locality Engine:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 345.00 Td (Verified municipal center coordinates ensure) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 332.00 Td (100% accurate rescue dispatch indoors) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 319.00 Td (or in urban canyons.) Tj ET
+BT /F2 11.00 Tf 0.961 0.620 0.043 rg 652.00 288.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.573 0.251 0.055 rg 662.00 288.00 Td (Dual-Device Ergonomics:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 273.00 Td (Calibrated mobile interface \(<768px\) with) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 260.00 Td (144px SOS trigger vs. desktop) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 247.00 Td (high-density GIS console \(>=768px\).) Tj ET
+BT /F2 11.00 Tf 0.961 0.620 0.043 rg 652.00 216.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.573 0.251 0.055 rg 662.00 216.00 Td (Multi-Role Synchronization:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 201.00 Td (Instant role gateway allows cross-functional) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 188.00 Td (simulation between Citizen, Responder, NGO,) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 175.00 Td (and Coordinator.) Tj ET
+BT /F2 11.00 Tf 0.961 0.620 0.043 rg 652.00 144.00 Td (-) Tj ET
+BT /F2 9.50 Tf 0.573 0.251 0.055 rg 662.00 144.00 Td (Self-Sustaining Civic Model:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 129.00 Td (Non-intrusive civic/academic sponsorships fund ongoing) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 116.00 Td (server and map tile costs) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 662.00 103.00 Td (with life-safety priority override.) Tj ET
+
+endstream
+endobj
+11 0 obj << /Length 9688 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+0.000 0.000 0.000 RG 1.000 1.000 1.000 rg 1.20 w
+120.00 495.00 m
+120.00 509.36 98.51 521.00 72.00 521.00 c
+45.49 521.00 24.00 509.36 24.00 495.00 c
+24.00 480.64 45.49 469.00 72.00 469.00 c
+98.51 469.00 120.00 480.64 120.00 495.00 c
+B
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 58.00 502.00 Td (Your) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 56.00 491.00 Td (Team) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 55.00 480.00 Td (Name) Tj ET
+q 95.00 0 0 45.00 825.00 480.00 cm /SIHHeaderLogo Do Q
+BT /F2 22.00 Tf 0.000 0.000 0.000 rg 280.00 488.00 Td (TECHNICAL APPROACH) Tj ET
+0.114 0.439 0.722 rg 0.00 0.00 960.00 24.00 re f
+BT /F1 9.50 Tf 1.000 1.000 1.000 rg 390.00 8.00 Td (@SIH Idea submission- Template  3) Tj ET
+BT /F2 9.50 Tf 1.000 1.000 1.000 rg 920.00 8.00 Td (3) Tj ET
+BT /F2 13.50 Tf 0.114 0.439 0.722 rg 48.00 448.00 Td (* Technologies to be used \(Programming Languages, Frameworks, Hardware\)) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 295.00 205.00 135.00 re B
+0.145 0.388 0.922 rg 48.00 427.00 205.00 3.00 re f
+BT /F2 8.50 Tf 0.145 0.388 0.922 rg 58.00 412.00 Td (FRONTEND CORE) Tj ET
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 58.00 396.00 Td (React 18 & TypeScript) Tj ET
+0.886 0.910 0.941 rg 58.00 387.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.145 0.388 0.922 rg 58.00 374.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 374.00 Td (Strict compile-time type safety) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.922 rg 58.00 356.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 356.00 Td (Modular 4-tier role architecture) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.922 rg 58.00 338.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 338.00 Td (Zero runtime undefined crashes) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.922 rg 58.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 320.00 Td (Fast reactive state updates) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 268.00 295.00 205.00 135.00 re B
+0.063 0.725 0.506 rg 268.00 427.00 205.00 3.00 re f
+BT /F2 8.50 Tf 0.063 0.725 0.506 rg 278.00 412.00 Td (OPEN-SOURCE GIS) Tj ET
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 278.00 396.00 Td (Leaflet.js & OpenStreetMap) Tj ET
+0.886 0.910 0.941 rg 278.00 387.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 374.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 374.00 Td (Zero proprietary API billing fees) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 356.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 356.00 Td (Custom SVG status & hazard pins) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 338.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 338.00 Td (Locality auto-centering with flyTo) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 320.00 Td (Lightweight footprint \(<45kB\)) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 488.00 295.00 205.00 135.00 re B
+0.024 0.714 0.831 rg 488.00 427.00 205.00 3.00 re f
+BT /F2 8.50 Tf 0.024 0.714 0.831 rg 498.00 412.00 Td (DESIGN SYSTEM) Tj ET
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 498.00 396.00 Td (Tailwind CSS & Lucide) Tj ET
+0.886 0.910 0.941 rg 498.00 387.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.024 0.714 0.831 rg 498.00 374.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 374.00 Td (Strictly zero emojis policy) Tj ET
+BT /F2 9.00 Tf 0.024 0.714 0.831 rg 498.00 356.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 356.00 Td (Lucide clean clinical iconography) Tj ET
+BT /F2 9.00 Tf 0.024 0.714 0.831 rg 498.00 338.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 338.00 Td (Responsive mobile/desktop tokens) Tj ET
+BT /F2 9.00 Tf 0.024 0.714 0.831 rg 498.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 320.00 Td (Dynamic viewport \(100dvh\) support) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 708.00 295.00 205.00 135.00 re B
+0.545 0.361 0.965 rg 708.00 427.00 205.00 3.00 re f
+BT /F2 8.50 Tf 0.545 0.361 0.965 rg 718.00 412.00 Td (BUILD & DELIVERY) Tj ET
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 718.00 396.00 Td (Vite 5 Bundler & PWA) Tj ET
+0.886 0.910 0.941 rg 718.00 387.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 718.00 374.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 374.00 Td (Sub-second HMR during dev) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 718.00 356.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 356.00 Td (Production build compiled in ~1s) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 718.00 338.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 338.00 Td (Gzip compressed for 2G/3G speeds) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 718.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 320.00 Td (Localhost + Mobile LAN support) Tj ET
+BT /F2 13.50 Tf 0.114 0.439 0.722 rg 48.00 275.00 Td (* Methodology and Process for Implementation \(Flow / Working Prototype\)) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 98.00 195.00 160.00 re B
+0.937 0.267 0.267 rg 48.00 255.00 195.00 3.00 re f
+BT /F2 8.00 Tf 0.937 0.267 0.267 rg 56.00 242.00 Td (STAGE 1: DETECTION & SOS) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 56.00 228.00 Td (Multi-Source Ingestion) Tj ET
+0.886 0.910 0.941 rg 56.00 219.00 179.00 1.00 re f
+BT /F2 8.50 Tf 0.937 0.267 0.267 rg 56.00 206.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 66.00 206.00 Td (Citizen triggers 1-touch SOS) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 196.00 Td (beacon) Tj ET
+BT /F2 8.50 Tf 0.937 0.267 0.267 rg 56.00 182.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 66.00 182.00 Td (Crowdsourced 4-step hazard reports) Tj ET
+BT /F2 8.50 Tf 0.937 0.267 0.267 rg 56.00 158.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 66.00 158.00 Td (Automated municipal locality binding) Tj ET
+BT /F2 8.50 Tf 0.937 0.267 0.267 rg 56.00 134.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 66.00 134.00 Td (Open weather & flood) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 124.00 Td (alert feeds) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 249.00 178.00 Td (->) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 268.00 98.00 195.00 160.00 re B
+0.961 0.620 0.043 rg 268.00 255.00 195.00 3.00 re f
+BT /F2 8.00 Tf 0.961 0.620 0.043 rg 276.00 242.00 Td (STAGE 2: VERIFICATION) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 276.00 228.00 Td (DEOC Triage Gateway) Tj ET
+0.886 0.910 0.941 rg 276.00 219.00 179.00 1.00 re f
+BT /F2 8.50 Tf 0.961 0.620 0.043 rg 276.00 206.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 286.00 206.00 Td (Coordinator validates incoming alerts) Tj ET
+BT /F2 8.50 Tf 0.961 0.620 0.043 rg 276.00 182.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 286.00 182.00 Td (Status: Reported -> Verified) Tj ET
+BT /F2 8.50 Tf 0.961 0.620 0.043 rg 276.00 158.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 286.00 158.00 Td (Severity weighting \(Critical/High\)) Tj ET
+BT /F2 8.50 Tf 0.961 0.620 0.043 rg 276.00 134.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 286.00 134.00 Td (Duplicate report clustering) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 469.00 178.00 Td (->) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 488.00 98.00 195.00 160.00 re B
+0.063 0.725 0.506 rg 488.00 255.00 195.00 3.00 re f
+BT /F2 8.00 Tf 0.063 0.725 0.506 rg 496.00 242.00 Td (STAGE 3: COORDINATION) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 496.00 228.00 Td (Tactical Resource Dispatch) Tj ET
+0.886 0.910 0.941 rg 496.00 219.00 179.00 1.00 re f
+BT /F2 8.50 Tf 0.063 0.725 0.506 rg 496.00 206.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 506.00 206.00 Td (First responder mission assignment) Tj ET
+BT /F2 8.50 Tf 0.063 0.725 0.506 rg 496.00 182.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 506.00 182.00 Td (Tactical navigation to coordinates) Tj ET
+BT /F2 8.50 Tf 0.063 0.725 0.506 rg 496.00 158.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 506.00 158.00 Td (NGO supply dispatch \(water,) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 506.00 148.00 Td (food\)) Tj ET
+BT /F2 8.50 Tf 0.063 0.725 0.506 rg 496.00 134.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 506.00 134.00 Td (Live shelter capacity monitoring) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 689.00 178.00 Td (->) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 708.00 98.00 195.00 160.00 re B
+0.388 0.400 0.945 rg 708.00 255.00 195.00 3.00 re f
+BT /F2 8.00 Tf 0.388 0.400 0.945 rg 716.00 242.00 Td (STAGE 4: RESOLUTION) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 716.00 228.00 Td (Status Sync & Analytics) Tj ET
+0.886 0.910 0.941 rg 716.00 219.00 179.00 1.00 re f
+BT /F2 8.50 Tf 0.388 0.400 0.945 rg 716.00 206.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 726.00 206.00 Td (Real-time status updates to) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 726.00 196.00 Td (citizens) Tj ET
+BT /F2 8.50 Tf 0.388 0.400 0.945 rg 716.00 182.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 726.00 182.00 Td (Incident lifecycle marked Resolved) Tj ET
+BT /F2 8.50 Tf 0.388 0.400 0.945 rg 716.00 158.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 726.00 158.00 Td (Post-disaster log audit trail) Tj ET
+BT /F2 8.50 Tf 0.388 0.400 0.945 rg 716.00 134.00 Td (>) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 726.00 134.00 Td (Operational metrics reporting) Tj ET
+0.749 0.859 0.996 RG 0.937 0.965 1.000 rg 1.00 w 48.00 53.00 864.00 32.00 re B
+BT /F2 9.50 Tf 0.114 0.306 0.847 rg 58.00 66.00 Td (WORKING PROTOTYPE STATUS:) Tj ET
+BT /F1 9.00 Tf 0.118 0.227 0.541 rg 220.00 66.00 Td (Functional end-to-end prototype deployed and running locally \(http://localhost:3001/\) and on mobile LAN \(http://10.65.122.231:3001/\).) Tj ET
+
+endstream
+endobj
+12 0 obj << /Length 6995 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+0.000 0.000 0.000 RG 1.000 1.000 1.000 rg 1.20 w
+120.00 495.00 m
+120.00 509.36 98.51 521.00 72.00 521.00 c
+45.49 521.00 24.00 509.36 24.00 495.00 c
+24.00 480.64 45.49 469.00 72.00 469.00 c
+98.51 469.00 120.00 480.64 120.00 495.00 c
+B
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 58.00 502.00 Td (Your) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 56.00 491.00 Td (Team) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 55.00 480.00 Td (Name) Tj ET
+q 95.00 0 0 45.00 825.00 480.00 cm /SIHHeaderLogo Do Q
+BT /F2 22.00 Tf 0.000 0.000 0.000 rg 280.00 488.00 Td (FEASIBILITY AND VIABILITY) Tj ET
+0.114 0.439 0.722 rg 0.00 0.00 960.00 24.00 re f
+BT /F1 9.50 Tf 1.000 1.000 1.000 rg 390.00 8.00 Td (@SIH Idea submission- Template  4) Tj ET
+BT /F2 9.50 Tf 1.000 1.000 1.000 rg 920.00 8.00 Td (4) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 50.00 275.00 400.00 re B
+0.114 0.439 0.722 rg 48.00 446.00 275.00 4.00 re f
+BT /F2 13.00 Tf 0.114 0.439 0.722 rg 60.00 426.00 Td (* Feasibility Analysis) Tj ET
+BT /F1 9.50 Tf 0.392 0.455 0.545 rg 60.00 410.00 Td (Technical, Operational & Economic) Tj ET
+0.886 0.910 0.941 rg 60.00 399.00 251.00 1.00 re f
+BT /F2 10.00 Tf 0.114 0.439 0.722 rg 60.00 385.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 70.00 385.00 Td (Technical Feasibility:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 370.00 Td (Built entirely with battle-tested open-source) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 356.00 Td (libraries \(React, Leaflet, OSM\). Requires) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 342.00 Td (zero proprietary hardware or paid) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 328.00 Td (API keys. Extremely lightweight \(<155kB) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 314.00 Td (gzip\) ensuring reliable loading under) Tj ET
+BT /F2 10.00 Tf 0.114 0.439 0.722 rg 60.00 275.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 70.00 275.00 Td (Operational Feasibility:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 260.00 Td (Role-based interface segregation prevents operator) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 246.00 Td (overwhelm. Citizens need 0 training;) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 232.00 Td (Coordinators and Responders operate intuitive) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 218.00 Td (standardized emergency workflows.) Tj ET
+BT /F2 10.00 Tf 0.114 0.439 0.722 rg 60.00 165.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.059 0.090 0.165 rg 70.00 165.00 Td (Economic Viability:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 150.00 Td (Zero licensing recurring costs saves) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 136.00 Td (crores for municipal corporations. Integrated) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 122.00 Td (non-intrusive civic sponsorships \(AdBanner\) provide) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 70.00 108.00 Td (ongoing runway for cloud hosting.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 343.00 50.00 275.00 400.00 re B
+0.937 0.267 0.267 rg 343.00 446.00 275.00 4.00 re f
+BT /F2 13.00 Tf 0.937 0.267 0.267 rg 355.00 426.00 Td (* Challenges & Risks) Tj ET
+BT /F1 9.50 Tf 0.392 0.455 0.545 rg 355.00 410.00 Td (Real-world Disaster Bottlenecks) Tj ET
+0.886 0.910 0.941 rg 355.00 399.00 251.00 1.00 re f
+BT /F2 10.00 Tf 0.937 0.267 0.267 rg 355.00 385.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.600 0.106 0.106 rg 365.00 385.00 Td (Network Infrastructure Collapse:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 370.00 Td (Cell towers and electrical power) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 356.00 Td (grids frequently fail during severe) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 342.00 Td (flooding, earthquakes, or cyclones, severing) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 328.00 Td (data connectivity.) Tj ET
+BT /F2 10.00 Tf 0.937 0.267 0.267 rg 355.00 275.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.600 0.106 0.106 rg 365.00 275.00 Td (Crowdsourced Misinformation:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 260.00 Td (Panicked rumors, accidental duplicates, or) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 246.00 Td (malicious false disaster reports can) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 232.00 Td (mislead rescue teams and waste) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 218.00 Td (critical resources.) Tj ET
+BT /F2 10.00 Tf 0.937 0.267 0.267 rg 355.00 165.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.600 0.106 0.106 rg 365.00 165.00 Td (Sudden Concurrent Traffic Surges:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 150.00 Td (Tens of thousands of simultaneous) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 136.00 Td (users accessing the portal when) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 122.00 Td (a major hazard strikes can) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 365.00 108.00 Td (crash standard centralized servers.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 638.00 50.00 275.00 400.00 re B
+0.063 0.725 0.506 rg 638.00 446.00 275.00 4.00 re f
+BT /F2 13.00 Tf 0.063 0.725 0.506 rg 650.00 426.00 Td (* Mitigation Strategies) Tj ET
+BT /F1 9.50 Tf 0.392 0.455 0.545 rg 650.00 410.00 Td (Architectural Defenses & Fallbacks) Tj ET
+0.886 0.910 0.941 rg 650.00 399.00 251.00 1.00 re f
+BT /F2 10.00 Tf 0.063 0.725 0.506 rg 650.00 385.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.024 0.373 0.275 rg 660.00 385.00 Td (Offline PWA & SMS Fallback:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 370.00 Td (Service worker caches shelter directories) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 356.00 Td (and helpline contact books locally.) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 342.00 Td (Planned Phase 2 integration of) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 328.00 Td (two-way SMS gateway and peer-to-peer) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 314.00 Td (mesh sync.) Tj ET
+BT /F2 10.00 Tf 0.063 0.725 0.506 rg 650.00 275.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.024 0.373 0.275 rg 660.00 275.00 Td (Verification Triage Gateway:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 260.00 Td (Incoming reports are isolated in) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 246.00 Td ('Pending Verification' status until corroborated) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 232.00 Td (by coordinators or secondary reports.) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 218.00 Td (1-touch SOS receives prioritized routing.) Tj ET
+BT /F2 10.00 Tf 0.063 0.725 0.506 rg 650.00 165.00 Td (-) Tj ET
+BT /F2 10.00 Tf 0.024 0.373 0.275 rg 660.00 165.00 Td (Stateless Edge Distribution:) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 150.00 Td (Static client-side React architecture distributed) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 136.00 Td (over edge CDN nodes; negligible) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 122.00 Td (backend overhead prevents server collapse) Tj ET
+BT /F1 9.00 Tf 0.200 0.255 0.333 rg 660.00 108.00 Td (during peak spikes.) Tj ET
+
+endstream
+endobj
+13 0 obj << /Length 9704 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+0.000 0.000 0.000 RG 1.000 1.000 1.000 rg 1.20 w
+120.00 495.00 m
+120.00 509.36 98.51 521.00 72.00 521.00 c
+45.49 521.00 24.00 509.36 24.00 495.00 c
+24.00 480.64 45.49 469.00 72.00 469.00 c
+98.51 469.00 120.00 480.64 120.00 495.00 c
+B
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 58.00 502.00 Td (Your) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 56.00 491.00 Td (Team) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 55.00 480.00 Td (Name) Tj ET
+q 95.00 0 0 45.00 825.00 480.00 cm /SIHHeaderLogo Do Q
+BT /F2 22.00 Tf 0.000 0.000 0.000 rg 280.00 488.00 Td (IMPACT AND BENEFITS) Tj ET
+0.114 0.439 0.722 rg 0.00 0.00 960.00 24.00 re f
+BT /F1 9.50 Tf 1.000 1.000 1.000 rg 390.00 8.00 Td (@SIH Idea submission- Template  5) Tj ET
+BT /F2 9.50 Tf 1.000 1.000 1.000 rg 920.00 8.00 Td (5) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 48.00 448.00 Td (* Potential Impact on the Target Audience) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 287.00 205.00 145.00 re B
+0.231 0.510 0.965 rg 48.00 429.00 205.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 58.00 414.00 Td (Citizens & Victims) Tj ET
+0.886 0.910 0.941 rg 58.00 405.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 58.00 392.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 392.00 Td (65% faster emergency assistance) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 382.00 Td (dispatch) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 58.00 368.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 368.00 Td (Instant visibility of nearest) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 358.00 Td (shelters & safe routes) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 58.00 344.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 344.00 Td (Zero confusion over inaccurate) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 334.00 Td (street names) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 58.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 66.00 320.00 Td (1-tap direct dial to) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 66.00 310.00 Td (24/7 disaster control rooms) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 268.00 287.00 205.00 145.00 re B
+0.063 0.725 0.506 rg 268.00 429.00 205.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 278.00 414.00 Td (First Responders) Tj ET
+0.886 0.910 0.941 rg 278.00 405.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 392.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 392.00 Td (Direct tactical navigation to) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 286.00 382.00 Td (verified locality pins) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 368.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 368.00 Td (Casualty and injury severity) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 286.00 358.00 Td (pre-triaged) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 344.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 344.00 Td (Zero futile searches caused) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 286.00 334.00 Td (by drifting GPS chips) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 278.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 286.00 320.00 Td (Clear unit status and) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 286.00 310.00 Td (equipment coordination) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 488.00 287.00 205.00 145.00 re B
+0.961 0.620 0.043 rg 488.00 429.00 205.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 498.00 414.00 Td (Humanitarian NGOs) Tj ET
+0.886 0.910 0.941 rg 498.00 405.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 498.00 392.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 392.00 Td (Real-time visibility into shelter) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 506.00 382.00 Td (bed shortages) Tj ET
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 498.00 368.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 368.00 Td (Data-driven dispatch of clean) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 506.00 358.00 Td (water and food tankers) Tj ET
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 498.00 344.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 344.00 Td (Targeted volunteer deployment without) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 506.00 334.00 Td (overlap) Tj ET
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 498.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 506.00 320.00 Td (Synchronized relief distribution logging) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 708.00 287.00 205.00 145.00 re B
+0.388 0.400 0.945 rg 708.00 429.00 205.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 718.00 414.00 Td (Municipal DEOC Coordinators) Tj ET
+0.886 0.910 0.941 rg 718.00 405.00 185.00 1.00 re f
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 718.00 392.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 392.00 Td (Single unified spatial map) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 726.00 382.00 Td (replacing chaotic phone calls) Tj ET
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 718.00 368.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 368.00 Td (Macro municipal telemetry counters) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 726.00 358.00 Td (by locality) Tj ET
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 718.00 344.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 344.00 Td (Accelerated multi-agency incident routing) Tj ET
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 718.00 320.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 726.00 320.00 Td (Comprehensive post-disaster audit compliance) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 48.00 265.00 Td (* Benefits of the Solution \(Social, Economic, Environmental, etc.\)) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 53.00 275.00 195.00 re B
+0.063 0.725 0.506 rg 48.00 245.00 275.00 3.00 re f
+BT /F2 10.00 Tf 0.063 0.725 0.506 rg 60.00 230.00 Td (SOCIAL BENEFITS) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 60.00 215.00 Td (Saving Human Lives & Protecting Vulnerable Citizens) Tj ET
+0.886 0.910 0.941 rg 60.00 207.00 251.00 1.00 re f
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 60.00 194.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 70.00 194.00 Td (Drastically shortens the golden-hour emergency rescue) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 183.00 Td (window) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 60.00 160.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 70.00 160.00 Td (Protects children, elderly, and patients with) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 149.00 Td (instant hospital routing) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 60.00 126.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 70.00 126.00 Td (Eliminates panic and public hysteria via) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 115.00 Td (verified official alerts) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 60.00 92.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 70.00 92.00 Td (Promotes transparent community solidarity and volunteerism) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 343.00 53.00 275.00 195.00 re B
+0.231 0.510 0.965 rg 343.00 245.00 275.00 3.00 re f
+BT /F2 10.00 Tf 0.231 0.510 0.965 rg 355.00 230.00 Td (ECONOMIC BENEFITS) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 355.00 215.00 Td (Conserving Municipal Budgets & Accelerating Recovery) Tj ET
+0.886 0.910 0.941 rg 355.00 207.00 251.00 1.00 re f
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 355.00 194.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 365.00 194.00 Td (Zero software licensing costs saves crores) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 365.00 183.00 Td (in state IT procurement) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 355.00 160.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 365.00 160.00 Td (Minimizes structural disaster losses via fast) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 365.00 149.00 Td (hazard containment) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 355.00 126.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 365.00 126.00 Td (Eliminates wasted rescue fuel and duplicate) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 365.00 115.00 Td (resource deployments) Tj ET
+BT /F2 9.00 Tf 0.231 0.510 0.965 rg 355.00 92.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 365.00 92.00 Td (Self-sustaining sponsorship framework funds long-term cloud) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 365.00 81.00 Td (operations) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 638.00 53.00 275.00 195.00 re B
+0.545 0.361 0.965 rg 638.00 245.00 275.00 3.00 re f
+BT /F2 10.00 Tf 0.545 0.361 0.965 rg 650.00 230.00 Td (ENVIRONMENTAL BENEFITS) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 650.00 215.00 Td (Rapid Hazard Containment & Eco-Damage Prevention) Tj ET
+0.886 0.910 0.941 rg 650.00 207.00 251.00 1.00 re f
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 650.00 194.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 660.00 194.00 Td (Enables rapid containment of chemical, fire,) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 660.00 183.00 Td (and toxic runoff leaks) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 650.00 160.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 660.00 160.00 Td (Prevents floodwater contamination of municipal drinking) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 660.00 149.00 Td (water reservoirs) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 650.00 126.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 660.00 126.00 Td (Optimizes rescue boat and vehicle routing) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 660.00 115.00 Td (to minimize emissions) Tj ET
+BT /F2 9.00 Tf 0.545 0.361 0.965 rg 650.00 92.00 Td (-) Tj ET
+BT /F1 8.50 Tf 0.118 0.161 0.231 rg 660.00 92.00 Td (Facilitates fast environmental restoration after storm) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 660.00 81.00 Td (surges) Tj ET
+
+endstream
+endobj
+14 0 obj << /Length 7060 >> stream
+1.000 1.000 1.000 rg 0.00 0.00 960.00 540.00 re f
+0.000 0.000 0.000 RG 1.000 1.000 1.000 rg 1.20 w
+120.00 495.00 m
+120.00 509.36 98.51 521.00 72.00 521.00 c
+45.49 521.00 24.00 509.36 24.00 495.00 c
+24.00 480.64 45.49 469.00 72.00 469.00 c
+98.51 469.00 120.00 480.64 120.00 495.00 c
+B
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 58.00 502.00 Td (Your) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 56.00 491.00 Td (Team) Tj ET
+BT /F1 9.00 Tf 0.000 0.000 0.000 rg 55.00 480.00 Td (Name) Tj ET
+q 95.00 0 0 45.00 825.00 480.00 cm /SIHHeaderLogo Do Q
+BT /F2 22.00 Tf 0.000 0.000 0.000 rg 280.00 488.00 Td (RESEARCH AND REFERENCES) Tj ET
+0.114 0.439 0.722 rg 0.00 0.00 960.00 24.00 re f
+BT /F1 9.50 Tf 1.000 1.000 1.000 rg 390.00 8.00 Td (@SIH Idea submission- Template  6) Tj ET
+BT /F2 9.50 Tf 1.000 1.000 1.000 rg 920.00 8.00 Td (6) Tj ET
+BT /F2 14.00 Tf 0.114 0.439 0.722 rg 48.00 448.00 Td (* Details / Links of the Reference and Research Work) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 251.00 422.00 175.00 re B
+0.114 0.439 0.722 rg 48.00 423.00 422.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 60.00 410.00 Td (1. National Disaster Management Frameworks) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 60.00 397.00 Td (Government & Regulatory Standards) Tj ET
+0.886 0.910 0.941 rg 60.00 389.00 398.00 1.00 re f
+BT /F2 9.00 Tf 0.114 0.439 0.722 rg 60.00 378.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 378.00 Td (National Disaster Management Authority \(NDMA\):) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 367.00 Td (National Disaster Management Plan \(NDMP\) & Incident Response System) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 357.00 Td (\(IRS\) guidelines for municipal emergency operations centers.) Tj ET
+BT /F2 9.00 Tf 0.114 0.439 0.722 rg 60.00 337.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 337.00 Td (National Institute of Disaster Management \(NIDM\):) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 326.00 Td (Multi-hazard early warning and community-based disaster risk reduction protocols) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 316.00 Td (\(India\).) Tj ET
+BT /F2 9.00 Tf 0.114 0.439 0.722 rg 60.00 296.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 296.00 Td (State Disaster Management Authority \(GSDMA\):) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 285.00 Td (District disaster management planning manuals and standard operating procedures) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 275.00 Td (\(SOPs\).) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 490.00 251.00 422.00 175.00 re B
+0.063 0.725 0.506 rg 490.00 423.00 422.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 502.00 410.00 Td (2. Open-Source Geospatial & Web Standards) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 502.00 397.00 Td (GIS & Low-Bandwidth Resilience Specifications) Tj ET
+0.886 0.910 0.941 rg 502.00 389.00 398.00 1.00 re f
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 502.00 378.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 378.00 Td (OpenStreetMap \(OSM\) Foundation:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 367.00 Td (Open geospatial vector database and decentralized geographic mapping standards) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 512.00 357.00 Td (\(https://www.openstreetmap.org/\).) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 502.00 337.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 337.00 Td (Leaflet.js Mapping Library:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 326.00 Td (Leading open-source JavaScript library for mobile-friendly interactive maps \(https://leafletjs.com/\).) Tj ET
+BT /F2 9.00 Tf 0.063 0.725 0.506 rg 502.00 296.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 296.00 Td (W3C Web Standards:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 285.00 Td (Service Worker specifications for offline-first progressive web apps and) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 512.00 275.00 Td (accessible touch ergonomics.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 48.00 58.00 422.00 175.00 re B
+0.961 0.620 0.043 rg 48.00 230.00 422.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 60.00 217.00 Td (3. Academic Research in Crisis Informatics) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 60.00 204.00 Td (Peer-Reviewed Literature & Humanitarian Case Studies) Tj ET
+0.886 0.910 0.941 rg 60.00 196.00 398.00 1.00 re f
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 60.00 185.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 185.00 Td (Harvard Humanitarian Initiative \(HHI\):) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 174.00 Td (Research on 'Disaster Relief 2.0: The Future of Information) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 164.00 Td (Sharing in Humanitarian Emergencies'.) Tj ET
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 60.00 144.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 144.00 Td (UN Office for the Coordination of Humanitarian Affairs \(OCHA\):) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 133.00 Td (Guidance on crowdsourced disaster data verification, crisis mapping, and) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 123.00 Td (humanitarian response coordination.) Tj ET
+BT /F2 9.00 Tf 0.961 0.620 0.043 rg 60.00 103.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 70.00 103.00 Td (IEEE Disaster Informatics Studies:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 70.00 92.00 Td (Telemetry latency benchmarks comparing locality-based geocoding against GPS sensor) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 70.00 82.00 Td (drift in dense urban environments.) Tj ET
+0.796 0.835 0.882 RG 0.973 0.980 0.988 rg 1.00 w 490.00 58.00 422.00 175.00 re B
+0.388 0.400 0.945 rg 490.00 230.00 422.00 3.00 re f
+BT /F2 10.50 Tf 0.059 0.090 0.165 rg 502.00 217.00 Td (4. Working Prototype Implementation & Source Code) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 502.00 204.00 Td (Live Demonstration, Project Repository & Verification) Tj ET
+0.886 0.910 0.941 rg 502.00 196.00 398.00 1.00 re f
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 502.00 185.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 185.00 Td (Smart India Hackathon 2026 Submission:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 174.00 Td (Problem Statement ID: 26206 | Theme: Disaster Management |) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 512.00 164.00 Td (Category: Software.) Tj ET
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 502.00 144.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 144.00 Td (Live Working Prototype Deployment:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 133.00 Td (Localhost Desktop: http://localhost:3001/ | Mobile Network Access: http://10.65.122.231:3001/) Tj ET
+BT /F2 9.00 Tf 0.388 0.400 0.945 rg 502.00 103.00 Td (-) Tj ET
+BT /F2 8.50 Tf 0.118 0.227 0.541 rg 512.00 103.00 Td (Full Project Codebase & Verification:) Tj ET
+BT /F1 8.00 Tf 0.200 0.255 0.333 rg 512.00 92.00 Td (React 18 + TypeScript + Vite 5 + Tailwind) Tj ET
+BT /F1 8.00 Tf 0.392 0.455 0.545 rg 512.00 82.00 Td (CSS; verified clean production build \(dist/\) with strictly zero emojis.) Tj ET
+
+endstream
+endobj
+15 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+16 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> endobj
+17 0 obj << /Type /XObject /Subtype /Image /Width 336 /Height 359 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length 12690 >> stream
+ÿØÿà JFIF  ` `  ÿÛ C 	
+
+!(!0*21/*.-4;K@48G9-.BYBGNPTUT3?]c\RbKSTQÿÛ C''Q6.6QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQÿÀ gP" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ó
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€-i°¤÷ñFã*O#Öºk‹+ymÚ3Åsº7ü…!ü‘®©¾áúU"%¹ÃÑE%…Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@´où
+Cøÿ #]S}Ãô®WFÿ ¤?ò5Õ7Ü?J¸‘-ÎŠ(¨,(¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢§´´šòM‘ã’OA@QVïtùì°d ©ş%éU( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š(Ş™*C¨E$‡
+	ôâº‹‹ˆ¡·iY×n8ç­q”SNÂjáERQE QE QE QE QE QZÖº³@$’O(ŠFOãY×0=´íƒæ_Nôì+‘QE†QE QE QE QE QE ¯ İÅŸ/˜FßÒ²( OS¶–4š6E­Á¹}ON{)22Ğ·İoOcWôW;m®[ˆçùÙ–4š6E¬0A«Ü&Š½©éÏe&FZ?+z{£PXQE(œ“@	EiÛh:Â†lSŞC·ôëV…õ 2í¸ÿ …fêÁhÙ²ÃÕjê,Ë´³öa¼eÛ¿ úÖôb¹è)ôEÏë[:.4ûŒ¨ó›—#×Ò·æ°H9bÆHÃŸl×lT®ùvG£K	N1N®­œ[øN<~îíÿ i+QÑ®ôñ½Ô<_ßNŸ¥z…ıœÊ‹•4nr*ı€">$IcÈì{TC5&¶*XZ5»£g•QWµ›°j/
+ÿ «?2}Q¯R2RWG‘(¸IÅô
+»i¦\](p!ş&ïK¤Ú«¿œf4ù›ßÚº…^Ã€*e+•«rhŒUĞ5ÁÏ²ÔRèR(ÌS+ûŠèv
+B•Ÿ;9V&wÜâåŠHd1È¥Xv4Êéõ[/µÀj<Õéî++ûïòÏşú­T“;!Z2Wz´U¹ôë¸^"WÕyª•W¹²iìQE
+ßÒ4­›n.æê¨{{š4+fÛ‹…ùºªŞæµå•!‰¤‘‚ªõ5IßDÊÆÒHÁUzšäµ¯¶]´ azíRjZƒŞÉ•‰~êÿ ST©64¬QE"‚Š( Š( Š( Š( Š( Š( ·tW;m®[ˆçùÂ¢švW;icI£häPÊÜk“ÔmEÛDW¨úU»]nh!º	qÀbpk>æy.gid9fı)·q$ĞÄF‘ÕÌp îkµÑ´X¬#Y%P÷'©<íö‹á;Q5ûÎÃ"ÇÔÿ “]ÜÄD“·F$/áŞ¼Ü]f½Õó=|¨ûY|„6R¬QHøUe}qœT·:x…a+!>daÎE_<Èl nR2{|Æ®kzx¶··I»hà½Nk‡–N2’éc£Û¾d›Şç7ä:²£#¥kjòëÿ \úÕJ·¨Ë¯ıp_ëYs7ræï$—úøÿ ëŠè"¢Öb¶>¥K©¯ş¸§ş‚*=[ıLõîµoâ‘û'ã†-¦Ÿ™IıGõ®bºÿ ø—Âé¯ô5ÈW±†w¦;­Y‡ãÅ¬’c–l~U³“€I5—¡ø—/ûÆ¶-f6óE0UfŒ†º(–çÏWw›&Ô,gÓ®½ÀQ  ü§=jÅ=í©¹[Ã}¦“nN3ÅYñ[™uq#c-lqî)²ÈŸı~7şƒE•Ù<±Rk¢3nôë›4‰å²\ìe`Á°pzRÚé—V·mòíÔ3“Z:§ü€t÷eÿ Ğªmåÿ ±uk]«³É2nÇ$ğ?*:ËšŞ_¡‡¤÷&A{ü´.Øì£©¬MOKI”Í…rTtoş½v>ÿ [ÿ ^rJÇ0¹‰æQò)½‰Î?•	ÛQÂN6hák_@µii cG¿­WÖ`_£ İş5^ÒîkI7ÂØ'‚C]	õ=4ù£tuòÊÄÒHÁUzšåµ-AïdÀÊÄ¿u©¦^_Ï{4€£¢¯ªÓl°QEŠ
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(§GË"ÆŠYØàÜĞ IÀäÖ¶…¨Ü€ËÅ=ä;úõÓèú,6«º‰.V?Ãì+xØÊ°Å+«&qëÇÁSo€ôéàRIÕ#AÓ$ÓmäIYİ³òúbºÖ‰×G±b„/ÏÎ8åª´Ö	½¼›Ø™'ğ8«ï¨©Ñã°HÏËÕ˜ç¾kŠsRæçzµşG[²ŒcMhŸù‘İÿ Ç¥—ıs?úªòM,¡D’;…é¸çfåKÛØ¨êÈGş<jÕş”4ä†s'š»Àe#¬9Jíl’¿ÜBœcd÷w2H#¨Å\ÔÛjØùL
+úf´u«}VŠØbdù€a‚Gp+.ŞàF¦ŞáKÀÇ•î§Ô{Ó”#âÓê“’RjÍt%™ì+4<ÉxûàdzŠ®÷
+ö/À,I‡U>ŸJ|±Ig*K™CÌr/óéEÚÇyk$Ñ “ªæHú£ü(WæóëçıÃ[Nß‘Ãø¿şA°ÿ ×Qür×ø¿şA°ÿ ×Qürëá†pc¿ŒÎ—Dÿ jÿ ¼kQ~è¬½şA«şñ­Eû¢œ·>r¿ÆÍŸÿ ÈJ?ú÷ÿ A©¡´¸½ğ¤qÚÂÓ:İ±`ƒ$¢°‹9$“ïNId"93×iÅ+êO:æmõ65¸d·Ò4˜&C¨²nFê2Õ‡ÿ z·ızŸæ+)İäl»3RsHŒà‘´_[‹ŸŞ¿õ±±á•i.ocA¹ŞÒEUIãŠ|zuÕƒ©›»w‡pfñŒİ«Y‘ƒ##¸8¥–Ye]¯+°ë‚ÄĞ˜ã4–¦>­a%ç–b*
+ç;«}:î KÄJú¯"ºíôÒ¤{Õ)ØÚ!ÅXâh®‹RÓtiaP²p:5sÄ`àõ­“¹İN¢šºŠ(¦hQE QE QE QE QE QE QE ¿á;A-ä—,2"_©ÿ ëVuŞÇØgõó9ü«Kj›±ÕƒŠ•es§¶LåÏĞV¥Ïüƒìşÿ ¡TãOµOCv®D¤Éàœò*ŸùÙıÿ B¯p”/~«õG¦ê)É5ÑÛğauÿ Vî·ş„j«#.7)é‘Ö®NÁ-¬XŒ€à÷ùªæ·¨Åuoiáò{{Q(E§&ìÒ_‘*M4’İ¿Ì£wÿ –_õÌÿ èF¤½‘¤ÄK#1ääç¹æ£»ÿ K/úæô#E÷ú‹?úãÿ ³MÛ›Ñ~€–Ş¯õ/ëööğ½©Br6¶r=jØ£ŸÈÇËs$Jù=$?ãUoÕÚ×ÿ ¡~¥ÒÓş½×úÖ“š|ÎÚhD"×*¿r;{ƒè'Bğ±ùĞõÔz‹P¶0Bd·Âãäqü¡­´Šá£‹„¸ò«Ãä¿½g<ÒÛÁ<¿+t>¿ZÍ®WÊöèÍ îî7Åÿ ò‡şºäk®¿Åÿ ò‡şºäk¯cü3ƒüftº'üƒWıã]b5Å·i<µÚ]›À5ÏhŸò_÷uÿ ™ÿ ®è5Oâ>~i:¶}Ç3NÒæ[éd’üÂ¯ĞF}k?N´kıBU;LŒã8Í_Ğ¿ãÓVÿ ¯CüÅQÓ&’F‰ÙxÍOc'ouØMFÔYjÚ‡Ş"r»±ŒÖ„zfŸŸms}{$Mp*¤[°ÅWñü‡¯ë©©õùèÿ õÉÿ ô*}Çdœ´ÛüÊºµŠX]"G)–9#YˆÁÁõ"éDèª4„bMŠ˜ê=sSxı}—ıyÅü©ğM$¼İ™#š0€¯J,®Ã–<Í´‹Ô.Ú)%1F‘´ŒÀdà{U©4Í>[›‹Ù%kuÊñmÈ'xkş>®ÿ ëÒ_åI£ÿ È'Xÿ ®+ÿ ¡P‡¬´îb¸ÁÏ­sÕ¸†ô²Œ,ƒwãŞº‡ûµƒâ,~ã×æş•Pzša¤ù¬bÑE±éQ@Q@Q@Q@Q@Q@Q@u^·»‡Íy"+€[‚Hö¨|9£,ª/n—+ÿ ,Ğ÷÷5Ø¥¤†$‘†Øß;O®+ƒ]YÁ¦Ëj³vìKÓ<Û7D,WñÇ¥_¹ÿ }ŸÑÿ ô*[Xb°´‘PobùnçT—?ò³ú?ş…^l¾×¢ı¦Ói®ïõ¯øò³ÿ u¿ô#QİËúä?­Iuÿ Vî·ş„j;¯ùcÿ \‡õ©Ÿ_Eù
+=>d—ñéeÿ \Ïş„h¾ÿ Qgÿ \öcN½F[;"ÊGîÏQşÑ¦ß¨³ÿ ®?û1ª—Úô_¡1éêÿ Q/ÕÚ×ÿ ¡“PRæÍTÆ ıj;ßõvŸõÄèF¦¾‘¢’ÆDá–#õ¦şÕüt·˜jÖ³Å,%ã ÕG~@äSõx—ìh·ÑL!d#ï9SïM»Ö'ºxX¢/”Á€ÍG­jlÄ#Uç®rkG*W“‹ŞÄF5/£ƒñüƒaÿ ®£ùä+¯ñüƒaÿ ®£ùä+ÓÂÿ äÇ.‰ÿ  Õÿ x×Sá©¢‡RiV%x79À¯5ËhŸò_÷j/İRvgÎÕ|µ/ætVö°é–:ƒI¨ÙÌf€Æ‹»˜’GjÃ´`—³(u$úsQQRÙ“•íe±{[–9õ›¹bpñ´„«„V“ÛÃ©ir¦¡iÀŒ®³I´ä¶kŸ¢‹OVÚÜÖñ±=ä	É(Šİ#fC•$pi¶ÓÄ¾¼¤Q+Ì…W¹9¬º(¸¹õlÖğì±G{2M2D%·xÕÜáA#Œšµ´:n“¨‡Ô-&yãTE†MÇ;³\ı&5;+XcœœzW?¯E;N$ØLJ0WDT—Œ0qv.•NGsŠ¢µ5}8[Ÿ:û¦<îšË­Ó¹êBJjè(¢ŠeQ@Q@Q@Q@Q@Mg¹¼†ün¡­ãûjÛ?Ş?ÈÔÍÚ-—N<ÓIõg{o
+‘(Â(Æ= ­»‘>ÈGÿ Ğ«*×ıaúV­ÏüxYıÿ B¯NüŞŸª=ê¿Wõ³çşAv_Wşb’çşAöGÿ Ğ©×?ò²ú¿óUŠÁt¨|‰eû˜l“¹«äæRwè¿CŸšÎ+Íş¦u×üyYÿ ºßú¦\¤kOºÿ +?÷[ÿ B5×ü±ÿ ®CúÖSëè¿#Hôùš¯í’Â°•l‚Iè>•NûıEŸıqÿ ÙWxeU7Un„ŒV®ÑÊÖT‘Scü''ƒW)Î§3–ö&0Œ,£µÆ^ÿ «´ÿ ®#ÿ B5=äFQbÀâ6‰S`sÍCGuC)ÊƒlnzèÆˆ¦–ÊG†h÷Fxx›¡ÿ >´®ºìì}7EİOM·Ó„+3à27zo‰/-î,âHîÚ1€{TZŠ‰ãæÜ—P!ä¡µOSÿ SıpZÚsårŒU“±ãw'v/Åÿ ò‡şºäk®¿Åÿ ò‡şºäk¯Kü3“üftº'üƒWıã[6›‹ˆaì'¶kDÿ jÿ ¼kQ~è§-Ïœ­ñ¿S[Ä–Vö³Al»b¤s¢¥³ŠÂÛB×VféŞsa@ íMñ?ü„£ÿ ¯xÿ ô$ÿ ‘Búüoı¬”åd7Y‚ĞYØ^Z[˜Â¾è÷–iÇSRiZd£y0ËÄ¿ºù±ƒÜãñİSş@:?û²ÿ èThñç«×©şb¡§>«§èUÑmc½Õí­¦Æí† ã#«lšMü÷‰¦#vYÌpTz¡áŸùlÿ ßş†§Ğä1wÿ \fşF„ö^lÈ‚#4ñÄ¸Ø(Ï½iø–ÆßOÕ«ˆüµn¹É=ë"¶<Kÿ –¿õëò¥Ğ…nFIoi¡ÛŞ\Ø›©&‘—™JméPkvö±¥œö°˜Râ-æ=Å°s¦Ÿyÿ "®Ÿÿ ]¤£Zÿ v‘ÿ ^çÿ B4ŞÅËákÉıÄ+4/taŠã™J1SÔí_ïW!{¶Ï›Ïó«¦tá^è‚Š(­NĞ¢Š( ¢Š( ¢Š(ÊŒßuIú
+_*Oùæß•v6É[Æ!fÑŒw©j¹Hæ8Ÿ*Oùæß•TŸóÍ¿*í¨£”9!‘—ï)QOµœÛ]E:õƒW]x‘½¤¢P6m9Ïjã*Zè\eÕ™kp’$sÆw#¥nNÁ´ë"§#ÿ ¡Wá%ºnÒ7ú9?»®{ãÚºˆ`”"Jr#líç®:×‡Z
+I@Ÿµ„j=;ŸùÙ}_ùŠµ£‹Kp&ÜÜnãŸJ«sÿ  »/«ÿ 1EÌÚu¢³±7ûÔ>_{™_Eù#{K>¯õëş<¬ÿ İoıÓ®mä[Î¸eòÆ@ê9=G¥:ö	c°³g” ’:d“Iu#Ä–N†ÿ SI«_›²ıínïõ.İjpêVÂÙ‡’ç3r¹ôö¬ØäÂvR¸=Â¥šĞKoÄ bÇğ¦Ep’F »ÉAÂH>òˆö§9JRNO^ŒPŒcEiØt¶ÑÏ¸³Î/å“üE2+„–1ÖvAÕ?ÄS^9ìfWVÇt‘O*r‘j ´!c¹ï@şãßÚ§®ŠÏ·ëş}5Û¿oëş‹ı#Oœ2Cå]¨§j*—–¦{pË@.êqê)Ü·¸Bğç•<>£ĞÔwÖíXŸ|,0®?‘ô4'¥–İ»ŞòoÌâü_ÿ  Øë¨şF¹
+ëü_ÿ  Øë¨şF¹
+ö0¿Ã81ßÆgK¢È5Ş5¨¿tV^‰ÿ  Õÿ xÖ¢ıÑN[Ÿ9_ãf†±{õÚK`¢$O›ÔU›;½:MX_<ñ”˜Ê­ƒœŒw¬z)\Ïİ³SW»´šÚÎÖÌÊÑÛ+Ò 	ÜsÚ¢Óocµ·¾@ÄÏ	qØäuªQ~¡Îïræ‘v–:¥½ÔŠY#l:âµ »Ñ¬dâŞ[¹%xİº 2Â¹ú(NÃŒÜU‚¯ê÷±ßO‘!HÎïP*…ˆ¾–6mî´Éôˆ,ïâ6…Ù‰A?ZƒZ½µm!´óVñl  ·9¬Ú=iÜ¾vÕˆ®gX yŸ¢Œ×Ì]‹¤äÖ×ˆÿ »9ıÇ õ÷¬d :– ó[Ahzx%÷,G§^JÒ*z?û*ûş}Ïæ?Æºˆ¥ŠXÕãu*G4ıÃÔV¼¦ÜÌå?²¯¿çÜşcühşÊ¾ÿ Ÿsùñ®¯põn¢Pæg=Õºo–UõëUë­ÔæŠ;	„Œ>e S\•&¬Rw
+(¢Éâ¼¹…vG;ªúÅ?ûF÷ş~düê­kûF÷ş~düèşÑ½ÿ Ÿ™?:«Ebynîf]²Nì¾„ñMµ®n¢zÈÁ~•jxl­ÁÛˆüLåËË¥)¨÷gqkn±¤pF6¢Œ¥n\ ºu ı
+²í~ûzâµnãÂÏèÿ úxmóz~¨÷ªüQ_ÖÌ[ŸùÙ}_ùŠlç6gıÿ çN¹ÿ ]—Õÿ ˜¦ÜÇ…§üùÑ.¾‹ô2OWú–¯õ—¼³‚6sœU{ïõ6õÇúš¯$FŠòDê­Ğ‘€jÅ÷ú›?úãıMœæ¤ç½£ÆÊ!pJØØ²’‚?Ş©g†;ˆà „¹‘7ğäÀñQÎ²±pìŸOš¯kv¶°ÙÛ´2e—åQ»9^NkEÔŸD—ä‰r³K«lÍ†vƒu¼ñ—ˆŸ™O¨ô4OlbQ</¾~WAô>†¬Ü˜dŠÙ&ù]¡Kï’9öâ«#Íc1R|ÊyWÖ³’¶nı‹Nú­ÿ 2U–+å	pÂ;‹7föoñª³µÅšO»—§}ÿ úõ<¶é,f{L”¼gï'øzŠK ö/Â—
+¿»oâCşu÷·ïßúÿ ‡|¶íØâ¼_ÿ  Øë¨şF¹
+ëü_ÿ  Øë¨şF¹
+ö0¿Ã<üwñ™ÒèŸò_÷uŞa¾£r#F’7!uÏ¡®GDÿ jÿ ¼k¬Ğÿ ä«×¸şuOâ>~_Å2Ä×o©xrîkˆáó"•2FŒç=*?	Gk&´‚è©HDeÎæÿ 9¦ZÈ­¨×hÿ ­Eá¯ù,ÿ ßş†—TJ~ü[şµ(N ¸ãüë£Ô5té¬ím¢·#cº NHçšç.?ãâ_÷Ïó­ÈJËş½¡şT"bÚM¢·ˆ£Hµë´(a€ È®j±Ú¯†tÖ·ØÍ¹„¶2Gáš­âùnÿ Şú§Üÿ È©eÿ _!GV7¼×õ¸ıÅ¾Ÿ©İ¬q´±"l.¡±–ÁëR]]6¡á¹.'!,w
+ªÉ^ö¨4¯ùëîGÿ ¡QüŠWõô¿úŸº—“$ğŒv²kJ.vŸ”„F\îoÿ Vk`<ÙmÆ´¼3ÿ #ŸûÇùÎ›ıtŸïçK¡›~âõ¡Jê¸·x[¸ür¥X©àƒƒ]³ıêäu ¡87šÒ›;0²İòGz2}M%©Ú.O©£'ÔÒQ@œÒQE QE QE QE bÂäÚ_Cp??Nõ^ŠM]Y7tzu¼ÊBJ‡r0È#¸5µpAÓìˆäaÿ ô*ó]\`ZİaÏÊßÜÿ ëWgÛ4I²@ñu^r9ô¯µMµÜ÷¡8â”w[£fçşAv_Wşb¥[s5«³‰7vè9ıMAÕ­Å¤1Ê]L;‹(¶O G’kÙÓ
+8H× ÿ >µ›²zët´ûŒìöÚÍş¥ıKV[ø´0·,9=OĞU=Dlû<$ñÄÀ9ÁÉ8§4±Ø©İƒÎxiGEö_ñ¨àµ?´\±ßŞsè?Æ‰ÊU¾¯ğB„c­¢üÇÌ¥ììumÀßU.¥¤=„	/š´ñŒ«<Ïu$i{U~Xã^qş&­jïp´3¹%cŒçœš=Ç6¯µ˜{ÊQI÷ ¾ÿ Wiÿ \ó5<óG²Ş	×1T†y¨ÿ 
+‚ûı]§ıpÌÒ_ÿ Ë¿ıpZMµÒ½¾a$W|ÈêÄdnGÔ—Kİ´’Å¶)•rñôî¿áV..LS,r/™Eä?îG¡ªº•“Aoæ¡ß¨!»ŒóƒéNÖmGUù]Ú¾Œâ|_ÿ  Øë¨şF¹
+ëü_ÿ  Øë¨şF¹
+õ°¿Ã8qßÆgK¢È5Ş5Ñi:ˆ°ó•íÖx¦MŒÄdg=Esº'üƒWıãZ‹÷E9hÏªÚ›hÖ»Õ¡“O{;[µI3å‰ÇNµOO»kè®•´g!OCQOÖòysÄñ¾3µÆKk§ŞŞ){kYeU8%W ZÜÊòoÌ‚Fß#9ÜI­ƒ­ÚÊ°›­*9¥<Ï5— tâ³.­.lÜ%Ìc4ÈàšT‘ã‰İ#vQ£ŞP'(»êo}-Ó¨Vç ¥’õŸL†Ä Œá»œÕxãydXãRîÇTd“W%Ñõ8ci$±QFI(xj™İ¡tÍElRâ)m–âÔFb½G"¥½ÕašÃìv¶)kHØrÄ1Ş²êIàšİöOÆÄg0qEØ)ÊÖ%Ó¯Âú+¤@íÈSĞñUİ·39ã'4ÆlqŠY¼ŒGs@$Şƒg•b‰ås…Qšä%s,­#ubI«Ú¦£ö³åE‘?÷Ñ¬êÚ±éP§È®ÂŠ(«:Š( Š( Š( Š( Š( Š( º/4†êeóË	¹ã9ë\ít>p/gNæ<şGÿ ¯Xâ?†Îœ'ñ¢wZm´—ÊƒêÇ€£Ôš¿-ÄpÆmí	ÁáåîşÃĞU+f’i$3çjXûÖ†bÓúm–ë×ªÇş&¼^íiİşˆõj|Zıßæ5 Ñ·csR_vôúF£qıæü•GôC—LóK&ØÁËÊßç“SßÈ°Ã¹Hd@íŸ¼Ç'­+^7Ú?‹"úÛwùœ¦Ÿoµ`òJé½9ÆÓëUïùÓş¸æh»ÿ ;/÷ÿ B4_«´ÿ ®#ùšswMt²ı+TıBûı]§ıpÌÒ_ÿ Ë¿ıpZ[ïõvŸõÀ3N¸‰§Ò$Æç‰ Í)+İ/!§k?Qšü|'ırOıQ©M$K„l·EaØ¢­kvOm$R¬8õ 
+£«tOúàŸúªš”%$ôÕ
+›RQ±Åx¿şA°ÿ ×Qür×ø¿şA°ÿ ×Qürëa†pã¿ŒÎ—Dÿ jÿ ¼kfÑÒ)á’T.ŠÀ²ƒŒÚ±´Où¯ûÆµîŠrÜùÊßõ7<]'›­y€c|(ØôÈ£Í’Äb‘›ÆÉSá¦xŸşBQÿ ×¼údøBÏãè4ucoßº»¼šîÅ˜¬¹,r~ğ©ô9ã­n#>aˆ¹|ö ~¦«ê¼h:?û²ÿ èThñç«×©şb Ÿ¿òıü3ÿ #Ÿûÿ ĞÕÍây5k´y¤tòfùY‰SğÏüŒ6ïÿ CV4µîÎ?åŒßÈĞº=£ëşF<‰<o"—E`YGqé[.”O«G0CÛ£cÓ5‡[%ÿ Ë_úõ‹ùR[§î5èb?Q\ŞºÏöí…ÉM …ÏºWí\ÆºÀêz(t÷:0¿EVÇ¢QE QE QE QE QE QE QE {F»ZœR±Âµ¾†¨ÑJIIY•8IIt=ZÊñí·ùm Áa×Æ´ ¶A¸ºb°Ÿº£ïIôö÷¯:Ğµå…Öñ°ƒ„“ÓØ×[Ó:+$¾bcåç#ÕâÕ¤àıí{v=ØJ5×4Ÿ^æî¡/›ihUhCa æ£¿û–¿õÀ3YÓ_K,EµTFwÉÍ]ŸwÙ¬÷1ba'êk)İ¦ß”-2K¿øó²ÿ q¿ô#E÷ú»Oúâ?™¢ïş<ì¿ÜoıÑ}ş®Óş¸æiKgè¿BcÓÕş£®‘¤ûj2ÍõÜjÆ­e5˜¶›xùUS*z0ª×¤ªÙ²œ ÿ ÀGu}svO&à½1NR‚RO},JŒ›Mm¨Û›»‹¢¦yíéíF­Ñ?ë‚è"›nè—¼‹¹aê*÷ˆ¯m.àAn2Ê9m¸ãÒ”}è¹JZè_Ã8¤´<ûÅÿ ò‡şºäk®¿Åÿ ò‡şºäk¯cü3ÏÇ.‰ÿ  Õÿ xÖ¢ıÑYz'üƒWıãZ±©mªIàS–çÎVøÙ-ÅÄ×R	'rì('Ğt«6:½şŸEk9Dc¸®üjïü#S‰„{d'éå~lúc$m¯Œ2¤{ŠZ¢œÙbûP»Ô^êc!Q…à ?*Š‰ IV'*²®Ç¸ô©¯tû‹§
+<ôóÛŞŸ§irßÇ,‹,0Å7<­´ô£[ŠÒró*Á4–ó$Ğ¹IåXv5¡/ˆuY¢xèípU°ª2?*ÿ I–ÊÙ.<ø'‰›fè_pÅg>vñF«AûÑÓaj[‹™®Y^y•P€Àt_q¦I"¢–‘‚¨îxXJ/adpv8P:×!w7Ú.¤—ûÇ§j¿ªjh	÷oïõ«*¶„lz8z\Šì(¢Š³¤(¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š *x.îm¿ÔO$î¶*{-.âò3"á±nõ^êÖ[IŒRŒ „PÕÖ ¥g¡×xfökË9|ùL’#õ>˜ÿ õ×a+‡¶³ ô„Èšó?_-¦¡åÈqÃi>‡µwpÍ°ícòÿ *ññpqm%¹îaåíi'Õ×ñçeşãèF‹ïõvŸõÄ3ItA²² äloıÒß«´ÿ ®#ùšæ—_Eúzz¿ÔuÊMŒk€Z%QŸv5f÷Ekf€,Áü×	ÈÆ	¬íR}±Ú*7Î!ÇnMYÔ.%‘m¤cû•n½ıjÚ‚Rr]‰´ıÛ=5&¿ÑÚÑà(q+läc¢Ö´“ah$‡ò1ƒIªM+Ëù±“Üµµ4’A ’FoÜ©ä÷4åì¯+Gµ…ixİúœ7‹ÿ äıuÈ×!]wŒ}‚îeÏèk‘¯Sü3üftº'üƒWıã[¿ëáÿ x:ÆĞÎtà=ŠÙµ M< ÃùÓ–çÎÖøß©Ğ\ÿ Èú?ëå¥bêÑÆ|ÿ ú®šm*ıü`/ÙÍ¿­æqŒqÍrú‹¨]09W ş&‰TÕïİšŞ$¸{»m.y†x	!F æ¢°ÿ ‘cTÿ ~/çTï/’êÊÆ{xÊ7¿9´t{y®ôJŞİ’³ÄB¸Ø_šoÓô"oùş¿OşX¯÷k ¾´ÃÂÑÃuŠCvX+u#oZçY³ÏaC&Iİz:İÜ¶şRÃ!BÙ'‡,òÌs,Œÿ SV5K‘uxÌ§(¿*Ó,lŞö),{
+Ú+CÒ¥«îV¢µo´Y-áóbs(xcVUQ¥îQE
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+(¢€
+ÓÒ´ÃtÂißŞ¥Ò´ÃtÂißŞ®DÀTÀU$K`¢€ UğÌkW‘İ\¨‹•Œcw­M«ê†r`±ñ0ş/şµdPØ%Ô+¢Ò<F`E‚ô3 ád‘õõ®vŠÊtãQZFôªÎ“¼YèöÚ…½ÊƒÒ·°nGáVæ»•Ñ<É¾T]£œ`W–Ò–b0XŸÆ¹	tgrÌ;ÇSÑ"¿´äÛÅ:<€d…9ık]n¼ô‰†p3^Qo<–Ó¤Ñ6×Ck°ÓüCir€Nâ	{†û§èk
+øWîêèâ£[IèÎÓQÿ YıpOåUuy•şÎˆÀí…Cc±ô¬™58CI}  	”tbê~$‚Ú;3æÊxİ•Æ±)JNËsKÂ’Rœ¶3¼Yv³^Çn‡"ÏÔÖ9İ¤vw%™I=Í6½ŠpäŠ‰âÕ¨êMÍõ6|?pInÇï|Ëıkyc\Tr4R,ˆpÊrt6z¼(YˆNùèjg§ˆ¢ÛæF×.ÜyMÆ¢sÚ ûD;sç¦?ßªº¼0©X’OQĞT(¶rÆ”¤ô.›¨Æ*‰bqVGNRB¾à×îÒ9w$³’hŞÀ`1ÇÖ´ög[Âù}ÍôQóqq’?¼Ù5…¨êÍp¦(XÏRzšË¢š‚F°¡»½B®éw¢Êçs£7·½R¢¬Üíãu–0èÁ•†A‡«é[w\Û¯YoqU4½I¬ßcå¡cÈô÷ÓÆé,aÑƒ+‚*÷#cˆ¢¶õ}+në‹eã« íî+¥«ÂŠ(¤0¢Š( ¢Š( ¢Š( ¢Š( ¢Š( «ÚEš^]íüˆ7ëTjkK™-'ÄyèAèE ÎÈDÀTÀW=«j†r`±ñ0ş/şµC{«Ïu•´F§®ÓÖ³ª›% ¢Š*J
+(¢€
+(¢€
++sIÒ¢–Ü\\Û¾êç£ı—cÿ >ëùšv'˜ä¨®·û.Çş}×ó4eØÿ ÏºşfŸ(s•Öÿ eØÿ Ïºşfì»ù÷_ÌÑÊÇ%Eu¿Ùv?óî¿™£û.Çş}×ó4r‡1ÉQ]oö]üû¯æhşË±ÿ ŸuüÍ¡ÌrTWXÚM‹)@àšç5CgtÑg+ÕO¨¤Õ†ÊÔQE!…Q@hiz“Y¾ÇËBİG§¸¬ú(·ÒXÃ£VW7®[Eov¦ ˜2Tv5^ÓP¹´R±8Ú{0È¨'K‰L’±f=ê›¹)Y‘ÑE%Q@Q@Q@Q@Q@Q@Q@Q@Q@Q@¨Â-–ŞgÉÀ-À"´¾×mÿ ?ÿ ßB¸Ê¹™y4bD‡å<‚HªL–‘Óı®Ûş~#ÿ ¾…k¶ÿ Ÿˆÿ ï¡\ßö5÷üò÷Ğ¤m"ùTŸ'8ô`h»‘Òı®Ûş~#ÿ ¾…k¶ÿ Ÿˆÿ ï¡\nqŞ¯"õT±Œ`ıáEÃ”é>×mÿ ?ÿ ßBµÛÏÄ÷Ğ®:4i$XÔe˜àU¹´»¸bidŒQ’w
+.§Mö»oùøşú}®Ûş~#ÿ ¾…q•yt‹Ö@Â1‚2>aEÃ”éöÕ±¸ı¡\Î§v//Š0€m_¥T<RRnå%`¢Š)(¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š (¢Š +´¶âÒ/÷ò®.·´İa6$?.öüj‘2E¬_#Î÷È®ÎF–Îå™&¨_hğÜ6Ü„sÏu«aujşT"Ğn8ü(ØZ1·?ñù/ıt?ÎºéãÙÿ Ü?Ê¸Ì’Ù<œ×g/ü{?û‡ùP‚G%cÿ Ğ×EşuÓê¿òŸıÚæ,ãúúè¿ÎºË¨>ÓlğîÛ¼c8éB	nq•ÚAÿ ±ÿ ¸?•dÂ<?ççÿ ÿ ëÖÊ.ÈU3«ŒĞ7sŠo¼~´”­÷Ö’¤°¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ¢Š( ­TĞ§xÕÄ±á†{ÖUv6rG%œE\°¾ÔÒ%»İ–£=“mS¾<ò‡§áé]HuDi#Êº† õštÉ'íGşùÿ ëÖ¬*–ÖÉm@ÜxªBmt8ùdÌƒ¬Gë]Œ¿ñìÿ îå\|ÌáØ‚äÎ»	Hû3ò>áşTHä¬ãúúè¿ÎºMŠéÓ2’^¢¹{øşƒşº/ó®›U#û6~Gİ¡l7¹Ëı¢ùí'ıôk¯„“m<ƒùW]œ}–>GÜÊˆ„5¾ñúÒR·Ş?ZJ’‚Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( —$RU:İn¯£‰¾é9?A@şcëFĞ×kQÆ¡QTvè*¹Hæ8ŒCKó{×mè(Àôr‡1Ä`ú0ŞõÛàz
+0=¡Ìq>†ŒŸS]¾ ¬ífÎ)lŞP¡dŒd0ïE‡ÌsQEIAEPEPEPEPEPEPEPEPEPEPEPEPEPEPEPRÛÌöó¤É÷”æ¢¢€:XõÛF@\:7qŒÓ¿¶ì¿¼ÿ ÷Ís©¤[Ù]îŠ`|ÑÈù±‘UvKHÓşÛ²şóÿ ß4mÙyÿ ïš_ìK/î?ıõGö%—÷şú§©:	ı·eıçÿ ¾hşÛ²şóÿ ß4¿Ø–_Üûê›&‘§Å;†UQ’KQ¨h/öİ—÷Ÿşùª®·˜ V
+ßy›ŠÊ˜Æfc•?('µ2¦å$‚Š(¤PQE QE QE QE QE QE QE QE QE QE QE QE QE QE QE QE S•™2’r¢Š Û³×@P—JIşúÿ QZqß[J»’L÷MU&KH‚ãW´ƒ#s;zş5‡©Mzp~HÇDÖŠ)64ŠTQE!…Q@Q@Q@Q@Q@Q@Q@Q@Q@ÿÙ
+endstream
+endobj
+18 0 obj << /Type /XObject /Subtype /Image /Width 236 /Height 111 /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length 4432 >> stream
+ÿØÿà JFIF  ` `  ÿÛ C 	
+
+!(!0*21/*.-4;K@48G9-.BYBGNPTUT3?]c\RbKSTQÿÛ C''Q6.6QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQÿÀ  o ì" ÿÄ           	
+ÿÄ µ   } !1AQa"q2‘¡#B±ÁRÑğ$3br‚	
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyzƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚáâãäåæçèéêñòóôõö÷øùúÿÄ        	
+ÿÄ µ  w !1AQaq"2B‘¡±Á	#3RğbrÑ
+$4á%ñ&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz‚ƒ„…†‡ˆ‰Š’“”•–—˜™š¢£¤¥¦§¨©ª²³´µ¶·¸¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ×ØÙÚâãäåæçèéêòóôõö÷øùúÿÚ   ? ó
+(¢€
+)H#gšJ (¢Š »¨[Gn°óó¦NOz¥Wµˆ§[qgba¸èj6%°QE†R•e ²##­% QE QE QE QE QE QE QE QE QE QE jÁ,ZŒm>uı}ª+"îûR6Q¼»±ùQ¼O§#ó•§Ï©ßÇk
+Í’\ôE’~•ÜØØ[i6÷0Ù4óÜËò>2ÅFpo¾SÛÒ²­YS^fÔ(:È§aám2Şuyf’õÓ“@¨O#œq*Ğ0iúŠ}âÆİbq€ÑÂ¨È6©È ›ºtâˆ® ¶¹•ËLò32º(Ê¢y‡?®i-G@xa€xÏ;cèv‚CÈë^c¯Q»¶zP¥MZ)nsÚ>“¬—’İÄ“KæÚ5q”Ü¿yˆ=qÆãŸj¿r–7¨ ¹Š½r"H¾„`cÅY—}şzjİÿ ì•J;GI`bÊV4U?PìÕéÊZŸ-^¤£UÙìeŞx~?³´ú}ËO±|ÆŠE¶õÊHn9íøÕHŒfîå€…ûÆºk8å³¸‚UØŞZF{íÏèsYz¦‡
+ÚÉq§´ª"ä‚Fvÿ yH8î19çœTe}Í¨×S÷[ÔÆ¾»k¹Ccj/
+¾‚«QEYÖQZöĞÅ•ö”g—?0nqÏ¥4„İŒŠ+O6WV¦(ö³0&>Z›Y´‰!àW´í´XW1¨­ëë;xtÇ+yˆ İsÅE¥ÛÛıŒK<jÆI6®Gáş4X9´¹Ei5²&¸!(<²ÙÛUÍ¶Í©›3iÜgpàôÍcŠÔ‡ÈŠüÚxäS&7$
+MQá†G·KX×‡‘E‡s2ŠĞÑ¢k¶YP:ì'{Š¹§[Û°¹2Ä„,¤‚‹	»tVÄvQÅ ¯c%		‚"+ƒmx;‡Ö‹1Ekİ[@a´¹ c¨e9¨µ[t]B(a@ÔÜ“E‡s6Šè.í-ZÚá"…VHÔÏ­sô5`NáE="’Lì›vŒÓ¼ê	hd u%M!W‚,ænïİBC$^Llz³oRp= kUÚb²0Ÿm'Í@:ì‹$RXùm¢éF/õ~R\ßøöê­€Ç.æxlãä‹¯§JòkIÎ£ÓmVœT)%ßR)$¹ùÔ³ÄI-Ac2$ğÛ®â0 ØjÄgº’İ;I#4	 Pãå”wnrAÏLîÈ=2ÔH.¢JÎˆ!8ÚmQ´ïpNáX÷¹¤~$V¿ŒÉöõ	¿ş'¯¨2•T²”ˆáR¹íl‘Z2ÿ ®¿ÿ °­ßò³aYüûmŞo®ì“Œílç¶s¶½in|!¿i!~Ë T b"‰Jäs´äŠÆªÊÊ­Œ'9Ú	Vã·5^œOk¿Íâ4İ’q­œûçm¬Âkmşnk»$ã£g>ùÛHÉI§{ùœ½İ´Öw2[Ü&Éc8a×ÿ Ö=êßñBoìãN-WÌ dıæ+Ÿø_Ã‘ö+¿ù÷“şù5ºÔõ£+¤Êõ§iÔ«uk!“qÃFk5”«`A{SãšX³åÈéŸîœSCz›70Æ·¶SÉ#ËV,÷7P?ğH?!ş­s¦YA!‘‹ŒO4¢yƒ—¸cÕ·šw'”Ú¸“ÍÓ/·˜@ú$é6VËqä•ÃıÒrÉ¬_6@…<ÆØy+I$¤œïÑqò›—h©e:òŒÿ Ÿ­?íRlµ®aqÏLõ¬>o”y¯òıß˜ñô¤ó¥ó<Ï1÷ÿ {qÏçEÅÊ\HÄZàEÎ¼fkşB/ôÊ©ydó¶ş»³ÏçC»ÈÛ‹7©94®Uş?Ÿş¹Ÿæ*hãÃPÿ }«"96İ²™SŠQ,¡YD}á“ÏÖ‹‰£ IEÆ“,ßÆb*ßPV’)&ĞaXĞ»dõ¬…–DB‹#ªª§-Äè¡ViG@NáÊkİ„OÃ‰å©'Ì×¡ôH÷ÌÖHìáÙØ°îO4ÿ ´O¿&ìc;qEÃ”İµxúãmÈ‘¥ê›HÆ=ëhÌS<gª±ˆî¹•½AÁ¤fgbÌKÔ“I±¥b{{Ë‹e+›A9# Ô©Ş:24¼0ÁùES¢•ÂÈô:%¶ĞôØ¢8VEvÿ hº–?Ğ~ Tò·ÕnDÉû¸óùb¨x?R{¨[L7}°ÉTdeHî>bG§?†‹$Q³8P c&N `»Ğp0ƒ“Ş¼šÑq¨ïÔõ©ÉJ’·M’ÑLèÌ@²©Ù¸(.ãoûK…/¿bÜî‘YNA\å[9^Üÿ ú£ñ¨mÔ›³++)Ü n?7ß“$ÆIÏJ,W B»x%HÎ–œCó®kÔÖ¢¶ ìŸoebŸñ7¸½1çôª|Ş@f®c„“Á-†?•hËşºÿ ôºşQÕ®åy­ÔìÄˆ¬F9ÉV?û-zÒÜù,Gñ% Ï>o!YœŒÅ'‚OÌ*<éŒ
+ÌÙıÔlIÉäşTø®åymÔìÄˆ¬ÃÊ±ãşù©­'®éÚ–ÆáÂnÂ³`ßw+¨¶ícÄÎĞjV×q1I§¶!ÈfOÔ(5—ı¥yÿ =Ûòš•ôºãÜÊçQz" …U­Ö‡¯Ù$Ç;³¹v$±9$Ö•¼2i72¼`ºîÁ=¸¬ºÚÒœÇ¤Üºıå,Gıò) –Ä:m¼2é÷ñ†eÎ	íÅ7I‚Iç$kßó«¶W2\é×-.2v¨­ãHô=²J"óŞ#?çLW+ë6ÑÁ,m…G^ƒ×üš±x–ºrÂŸfIwgs1çŠ]A]'G°7Œö¥Ö¡’àÛ˜‘yåFzâ€Ob!ofÚ´K×‰”’ äƒNû)wq<ÊÚ3ÂúœRÃi±#–Ê±9íÁ«2Ëì× ¤r†˜®d[¢]êH¢0±³ghéWõ[cc$FªÑ¾=¸5Šêw”mò—Ûüâ¬Ù,RCs
+Ü‰Œ™c…#¤†Ş¥=1­ç‘-ŞÕ	ÁËç“IpÖæô[-ª.%p=Fiš0#R ğ@4“ÈoşÛçGAõ$Ô Š-JãŒ*¹¿&§¹²µH!TŒ¤°^øÍK¨^M¡HWkœŒ÷4û‚·m“çL›²[GÔËìˆ½zSllíÅÅâJÖ20[°æŸyä1°N~lqÓÖlC\jd?‘ Ca
+ê’£Æ"›ĞÜÖ#pÇë]“0¸µF<ÉØO·ùÅs¯÷ÛëI•ÆÑE%tFM/QŠî5·!œR0Gå]¼Xj–Ò]YHî#hv”fÉÎ:Áäøf¸Û;8â‡í—œF9TîÔı;\—OÔä»Š%1J6É@ËõìxÎıUj*¢¿SjùÇe%—Ø<Ï½ıßŞKÍ6İí#Ö+Ya”˜È‘Á˜…LwãNhrH¡Öêçæ-eNIÉ äòÇ ïWMŞ“b‚æMBİãQ‘J®íò¨À~^øë^k¡Q;4z1«Ou%¡VòC_2¨cı¯r ¾XşµQnªH¶é¿deyé¼ãÇj©¦êĞßµä7Ò$/=Ã]FÌp»˜üÊOn‹ƒÓŠ¹u.™iúMÌdaURÕÖf 9€¹Ízn:Ÿ1^“•Ge¹%£}ªh8Hè…=·db³µ}^Ö+Ym,dI(Øó*•EOEÏ'>¸g®i·:õ¬Ó"—Í)å‰¦J/O•A<ûçLóYz|ğymkr£ËsıÔÕFÍ(Ğå÷¤µ(QVolŞÒ]­ÊU½EV«;¤Y¥HÌk#*7UƒQÑ@$ÒÆ…FUn HÓHè¨Ò3*ôğ)”P‚iDf!#=W<S£º¸v¤Î«è¡©ìãŠ[¤Iœ$g©'ŒM(“Ì0ïgŸÎ6O7ÍóÌşöy­xE”÷­j–¨ÈúÀÄÓlôûv½¹WË¤D 3NÂ¹˜ng;³3Ü7ÌyúÓc–H˜´nÈOSŠÖ´Š×QP-„,˜ÁSëŸğªökg“Ï6Ù%åŒ¶?J,(¬²$b»+ÿ xidóùÎìóšÔŞŞm(İ¬" <qR=¼–°µûD’c9Ï¦h°\Èy¥‘Ã¼ŒÌ:rEM,¬I˜t$çkQ[a°Â‘ó#1ùÕ*‰ÍåÉ]¦âL¼j8å’0Â9CuÁÆi”R$SK|©3×iÆj:( Š( 	$šYUVG,aAíQÑE Og$QÜ«Ï˜ƒªÖ»MdªY´Ù ’`„¹Ü1×<V¼ÆYÉÅ:ÇûØÏ*Wjh–J.l	P4÷%†Ty#‘íMû^šc/öÙœnò†3õ¥·ÿ ­?ş¸åU_ÊşÅo'~ß;øñœâ™&sX03À¤¢Š“Aï,ª®ìÊ¼('¥2Š( ¢Š( ¢Š( ©m`k›„…N¾•:9'aĞŠ Ø›}Š˜,­¤,GÍ.Òsô£CÜÊ¾Cñz÷¬ß·]ÿ ÏÄŸ÷ÕF&”Je0sÕæªäÛCcDHVàÊŒƒ¼1Ó5WN±Iak™ƒ2/DQ’ÕRK»™WkÌì¾™¤êx—ls:¯ 4®e›ù®§_šŠè»HëZÏp,-Ú×y$”íXÒ]ÜJ…ge=A4Euq
+ígUôŠ.55¾m-‹ÿ ¬ïëÓšÅ§É,’¶éœú“šeQ¥`¢Š)(¢Š (¢Š (¢Š +nŞİîmU¤Ô_ç®ïÓ­bTJ!”9dÕ†A¦„ÕÍ¡§*²‘~À ÂœR¿µ–ê±İoVl”ş´÷Ô,ü¿’Â=şê0+0œ±<séMØI1(¢Š’‚Š( Š( Š( Š( Š( Š( Š( Š( Š( Š( ÿÙ
+endstream
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000145 00000 n 
+0000000340 00000 n 
+0000000536 00000 n 
+0000000732 00000 n 
+0000000928 00000 n 
+0000001124 00000 n 
+0000001320 00000 n 
+0000003060 00000 n 
+0000010333 00000 n 
+0000020074 00000 n 
+0000027122 00000 n 
+0000036879 00000 n 
+0000043992 00000 n 
+0000044063 00000 n 
+0000044139 00000 n 
+0000056999 00000 n 
+trailer << /Size 19 /Root 1 0 R >>
+startxref
+61600
+%%EOF

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SIH 2026 Idea Submission — Multisource Disaster Management Intelligence System</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      background: #0f172a;
+      color: #000000;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      user-select: none;
+    }
+
+    .deck-container {
+      width: 100%;
+      max-width: 1080px;
+      aspect-ratio: 16 / 9;
+      position: relative;
+      margin: auto;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      background: #ffffff;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+
+    .slide.active {
+      display: flex;
+    }
+
+    /* Template Header */
+    .template-header {
+      height: 70px;
+      padding: 12px 36px 0 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .team-badge-oval {
+      width: 90px;
+      height: 52px;
+      border: 1.5px solid #000000;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1.15;
+      text-align: center;
+      color: #000000;
+    }
+
+    .slide-main-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: #000000;
+      text-align: center;
+      letter-spacing: -0.01em;
+      flex: 1;
+      padding: 0 16px;
+    }
+
+    .sih-header-logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    /* Template Body */
+    .template-body {
+      flex: 1;
+      padding: 6px 36px 14px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .section-subheader {
+      font-size: 15px;
+      font-weight: 800;
+      color: #1d70b8;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Cards */
+    .card-grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      height: 100%;
+    }
+
+    .card-grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .card-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .box-card {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .box-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3.5px;
+      background: #1d70b8;
+    }
+
+    .box-card.emerald::before { background: #10b981; }
+    .box-card.amber::before { background: #f59e0b; }
+    .box-card.rose::before { background: #ef4444; }
+    .box-card.indigo::before { background: #6366f1; }
+
+    .box-card-title {
+      font-size: 12.5px;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.25;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 4px;
+    }
+
+    .bullet-item {
+      font-size: 9.5px;
+      color: #334155;
+      line-height: 1.4;
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+
+    .bullet-dot {
+      font-weight: 900;
+      color: #1d70b8;
+      font-size: 11px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    /* Template Footer */
+    .template-footer {
+      height: 24px;
+      background: #1d70b8;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9.5px;
+      font-weight: 600;
+      position: relative;
+      padding: 0 20px;
+    }
+
+    .footer-page-num {
+      position: absolute;
+      right: 20px;
+      font-size: 10px;
+      font-weight: 800;
+    }
+
+    /* Floating Controls */
+    .controls {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #1e293b;
+      padding: 8px 16px;
+      border-radius: 30px;
+      border: 1px solid #334155;
+    }
+
+    .ctrl-btn {
+      background: #334155;
+      border: none;
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .ctrl-btn:hover {
+      background: #2563eb;
+    }
+
+    .ctrl-btn.primary {
+      background: #2563eb;
+    }
+
+    .slide-indicator {
+      color: #94a3b8;
+      font-size: 11px;
+      font-weight: 700;
+      min-width: 60px;
+      text-align: center;
+    }
+
+    /* Print / PDF generation */
+    @media print {
+      body {
+        background: #ffffff !important;
+        padding: 0 !important;
+      }
+      .controls {
+        display: none !important;
+      }
+      .deck-container {
+        box-shadow: none !important;
+        max-width: none !important;
+        width: 100% !important;
+      }
+      .slide {
+        display: flex !important;
+        position: relative !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        page-break-after: always !important;
+        break-after: page !important;
+      }
+    }
+    .diamond-bullet {
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      background: #1d70b8;
+      transform: rotate(45deg);
+      margin-right: 6px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="deck-container">
+
+    <!-- SLIDE 1: TITLE PAGE -->
+    <section class="slide active" data-slide="1">
+      <div style="height: 60px; padding: 16px 36px 0 36px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="font-size: 24px; font-weight: 900; color: #1e3a8a; letter-spacing: -0.01em;">
+          SMART INDIA HACKATHON 2026
+        </div>
+        <img src="data:image/jpeg;base64,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" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div style="font-size: 23px; font-weight: 900; color: #000000; text-align: center; margin-top: 10px;">
+        TITLE PAGE
+      </div>
+
+      <div style="flex: 1; display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; padding: 0 44px;">
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> Problem Statement ID –
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              26206
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> Problem Statement Title-
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              Multisource Disaster Management Intelligence System
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> Theme-
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              Disaster Management
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> PS Category- Software/Hardware
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              Software
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> Team ID-
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              [Your Team ID / e.g. SIH2026-TEAM-XXXX]
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size: 14.5px; font-weight: 800; color: #000000; display: flex; align-items: center; gap: 8px;">
+              <span style="color:#000;">•</span> Team Name (Registered on portal)
+            </div>
+            <div style="font-size: 13.5px; font-weight: 700; color: #1d70b8; margin-left: 18px; margin-top: 2px;">
+              Disaster Intelligence
+            </div>
+          </div>
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <img src="data:image/jpeg;base64,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" alt="SIH Bulb Brain" style="max-height: 360px; width: auto; object-fit: contain;" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: IDEA TITLE & PROPOSED SOLUTION -->
+    <section class="slide" data-slide="2">
+      <div class="template-header">
+        <div class="team-badge-oval">Your<br>Team<br>Name</div>
+        <div class="slide-main-title">IDEA TITLE: MULTISOURCE DISASTER MANAGEMENT</div>
+        <img src="data:image/jpeg;base64,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" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div class="template-body">
+        <div class="section-subheader">
+          <span class="diamond-bullet"></span> Proposed Solution (Describe your Idea/Solution/Prototype)
+        </div>
+
+        <div class="card-grid-3">
+          <div class="box-card">
+            <div class="box-card-title">• Detailed Explanation of Proposed Solution</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Unified 4-Tier Command Grid:</strong> Interlinks Citizens, First Responders, NGOs, and Municipal DEOC Coordinators into one real-time operations engine.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Real-Time Coordination Loop:</strong> Implements a rapid Detect → Verify → Map → Prioritize → Respond → Coordinate cycle.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Multi-Source Data Ingestion:</strong> Ingests crowdsourced citizen reports, 1-touch SOS distress beacons, open meteorological feeds, and field responder telemetry.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Live Spatial Disaster Map:</strong> Open-source Leaflet GIS console with toggleable layers for hazards, shelters, medical points, and rescue units.</div></div>
+          </div>
+
+          <div class="box-card emerald">
+            <div class="box-card-title">• How it Addresses the Problem</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Eliminates Information Silos:</strong> Replaces disconnected WhatsApp groups and manual phone calls with a single source of operational truth.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Solves Hardware GPS Drift:</strong> Replaces battery-draining device GPS polling with deterministic City & Locality geocoding, preserving critical battery.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Prevents Shelter Overcrowding:</strong> Live occupancy telemetry displays real-time capacity and directs evacuees to underutilized relief shelters.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Optimizes Relief Deployment:</strong> Directs potable water tankers, food rations, and medical kits to verified areas of acute shortage.</div></div>
+          </div>
+
+          <div class="box-card amber">
+            <div class="box-card-title">• Innovation and Uniqueness of Solution</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Deterministic Locality Geocoding:</strong> Verified municipal coordinates guarantee 100% accurate rescue navigation indoors and in dense urban canyons.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Dual-Device Ergonomics:</strong> Panic-proof mobile phone UX (&lt;768px) with 144px central SOS trigger vs. desktop high-density command workspace (&gt;=768px).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Multi-Role Synchronization:</strong> Real-time role gateway enabling rapid cross-functional simulation between Citizen, Responder, NGO, and Coordinator.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Self-Sustaining Civic Model:</strong> Built-in non-intrusive civic sponsorships (demonstrated with Karnavati University) fund ongoing server and map tile costs.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-footer">
+        @SIH Idea submission- Template  2
+        <span class="footer-page-num">2</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: TECHNICAL APPROACH -->
+    <section class="slide" data-slide="3">
+      <div class="template-header">
+        <div class="team-badge-oval">Your<br>Team<br>Name</div>
+        <div class="slide-main-title">TECHNICAL APPROACH</div>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAA0JCgsKCA0LCwsPDg0QFCEVFBISFCgdHhghMCoyMS8qLi00O0tANDhHOS0uQllCR05QVFVUMz9dY1xSYktTVFH/2wBDAQ4PDxQRFCcVFSdRNi42UVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVFRUVH/wAARCABvAOwDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzCiiigAopSCMZBGeaSgAooooAu6hbR26wGPPzpk5PeqVXtRuIp1txG2diYbjoao02JbBRRRSGFFKVZQCykA8jI60lABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQBqwSxajAttPhJ1GI39faorDSLu+1I2UQUOvLux+VF/vE+nI/MVHpWnz6nfx2sBCs2SXPRFHJJ+ldzY2FtpNvcw2TTz3MuN8j4yxUZwB2++D1Pb0rKtWVNeZtQoOo/Ip2HhbTLedXlmkvXTkxlAqE8jnBJxkH8q0DBp+op9nuLG3WJxgNHCqMg2qcggDpu6dOKIriC2uZXLTPIzMrooyqJ5j4c/rmktgUdAeGGAeM87FGPodoIPQ8jrXmOvUbu2elClTVopbnPaPpMdrJeS3cSTSwTm2jVxlNy/eYg9ccYB459qv3KWN6gguYoDvXKPAiJIvoRgDI9jxVmXHn3+en9q3f8A7JVKO0dJYGLKVjRVP1AYf+zV6cpany1epKNV2exl3nh+P7O0+n3LT7F8xopFAbb1ypBIbjnt+NUbC0iMZu7lgIUPA/vGums45bO4glXY3lpGDnvtz+hzWXqmhwrayXGntKoiG+SCRgx2/wB5SAM47jGQOeecVGV9zajXU/db1Ma+u2u5Q2NqLwq+gqtRRVnWFFFa9tDFHpX2lIFnlz8wbnHPpTSE3YyKK082VxdWpij2szASJj5am1m0iSGN4I1XDbTtHrRYVzGorevrO3h0xysSeYgA3Y5zxUWl29v9jEs8asZJNq5H4f40WDm0uY1FaTWyJrghKDyy2QvbBFXNts2pmzNpHtxncOD0zRYOYwaK1IfIivzaG3jkUyYDNyQKTVHhhke3S1jXgYcDkUWHczKK0NGijmu2WVA67CcEe4q5p1vbsLkyxIQspAyOgosJuxh0VsR2UcUeoK8YYxglCR0GCRQFgg0iK4NtHI54O4fWiwcxj0Vr3VtAYbS5jiCeY6hlHTmotVt0XUIoYUCB1AwB3JNFh3M2iugu7S1a2uEihVZI1ByBz61z9DVgTuFFPSKSTOyNmx12jNONvOoJaGQAdSVNIZ1XgizmjW7v3UJDJF5MbHqzb1JwPQAda1XaYrIwnxNtJ81AOuyLJANSWPltoulGL/V+UgGPXB3f+PbqrRSAxy7mjwseeGzj5Iuvp0rya0nOo9NtD1acVCkl31J/KSS5+dQdswYexEktQWMyJPDbruIwFQAY2ARqxGe6kt07Gp0MSSM0CSBQ4+WUkHduckHPTO7IPQ0y1EguohNKzogZITjaFG1RtI/vcE4P4Vj3uaR+JFa/jMn29Qm//icXBK+oBjJ/lVQWsggClA2I4VK5HO1skVoy/wCuv/8AsK3f8o6zYVn8+23ebxGu7JOM7WzntnO2vWlufJ4hv2khfssggVSgYiKJSuRztOSKnsYTE6rKyoGtjCc52glWHOO3NV4VnE9rv83iNN2ScZ2tnPvnbRGswmtt/m4Ea7sk46NnPvnbSMlJp3v5nL3dtNZ3MlvcJsljOGHX/wDWPeoa3/FCGW/s440LTi1XzABk/eYrn/gBX8MVkfYrv/n3k/75NbrU9aMrpMr1p2kN1BardWshk3HDRgZrNZSrFWBBHBB7U+OaWLPlyOmf7pxTQ3qbNzDGt7ZTBBHJIw3LVhAs9zdQP/BIjj8h/h+tc6ZZGkEhkYuOjE80onmDlxK4Y9W3HJp3J5TauJPN0y8ft5hA+gIFJOkMNlaQy3HklcP90nJ/yaxfNkCFPMbYeSueDRJJJKQZHZyP7xzRcfKbl2gOqWU68h+M/wCfrT/tUn9sta4XYR1xz0z1rB8+b5R5r/L935jx9KTzpfM8zzH3/wB7cc/nRcXKXEjEWuBFzgS8Zo1r/kIv9B/KqXmOZPMLtv67s8/nQ7vI252LN6k5NK5VjR0H/j+f/rmf5ipof+PDUP8AfasiOR423RuyHplTilEsoVlEjgN94ZPP1ouJo6BJRcaTLN/GYirfUA1Wkikm0GFY0LtkHAH1rIWWREKLI6qeqg4Bpy3E6KFWaRVHQBiBTuHKa90DHY2ET8OJF+WpJ4/M16H0SPcfzNYLSOzh2diw7k80/wC0T79/nSbsYzuOcUXDlN21eBr6423IkaXqm0jGPesCaMxTPGeqsRSI7o25GZW9QcGkZmdizEsT1JNJsaVie3vLi2UrDJtBOSMA1I+p3joyNLwwwflFU6KVwsj0jTolttD02KI4VkV2/wBoupY/0H4VAFTytxnVG24ERAzJ+7jz+WKoeD9Se6hbTJ03fZ0MsMmeVGRlSO4+YkenP4aLJFGzOFCgYyZOoGABu9BwMIOT3rya0XGo79T1qclKkrdNBpLRTOgRzECyqdm4KC7jb/tLhR8vvxVi3O6RWU5BXOVbOV7c/wAS+h6j8aht1JuzKysp3KBuPzffkySBxknPSixXEiBCu3glSM4PlpyPQ/MfrmsX1NYborag7J9vZWKf8Te4Bb0BMef0qp583kBmkK5jhJOBwS2GP5Voy/66/wAf9BW6/lHVCK7lea3U7MSIrEY5yVY/+y160tz5LEfxJaDPPm8hWZyMxREnA4JPzH8qPOmMCszZ/dRsSR3J5P5U+K7leW3U7MSIrMMdyrHj/vmprScSrumB2pbG4cIcbsKzYB7fdx+NKxiotu1jH8TO0GpW13ExSae2DyEdyGZP1Cg1l/2lef8APdvyFJqV9LqN49zKAucBUXoijgAfhVWt1oevGNkkxzuzuXYksTkk1pWNvDJpNzK8YLruwT24rLra0pzHpNy6/eUsR/3yKaCWxDptvDLp9w7xhmXOCe3FN0mCF0nnnQMka9/zq7ZXMlzp1y0uMgEcDHaoreNI9D2ySiLzj94jP+eBTFcr6zbRwSxtEoVHXoPX/JqxeJa6csKfZkl3Z3Mx54pdQRZdHidHEgiwNwGM9qXWoZLg25iRnXnlRnrigE9iIW9m2rRLDteJlJKg5AODTvsMKXdxPMoW2jPC+pxSw2kdnrECI5bKsTntwasyyx3s1xYSAKRyhpiuZFuiXepIojCxs2do6YFX9QtbY2MkkEaq0b4OPbg1Ho8Biup3lG3ylwfb/OKs2SxSQ3MK3ImMmWOFIxmkht6lPTGt55Et3tUJwcvnk0lw1ub0Wy2qLiUDcD1GaZowI1IA8EA0k3/Ib/7bD+dHQfUk1KCKLUoY44wqELkDvyanubKBtUghVAiMpLBe+M1LqF5NBqEUSFdrAZyM9zT7gga3bZOPkI/nTJuyFFtH1BrL7IgUD72eelNsbO3FxeJKgdYyMFuw5p8UEo155DGwTn5scdPWnWxDXGpkHI4/kaAGQ2EK6pKjxhoim9Ae3NYjcMfrXR6TMLi1RjzJGNhPt/nFc6/32+tJlR3G0UUVJRd0jUZNL1GK7jUPtyGQnAdSMEflXbwTWGqW0l1ZSO4jGGgZdpRmyc46E8HkE/hmuNs7OOKH7ZecRjlU7tT9O1yXT9Tku4olMUo2yQ9Ay/XseM5//VWNaiqiv1NqFfkdnsdlkCWQl9g8z739395LzTbd7SOe1itZYZSYyJHBAZiFTBx34xVOHxNockih1uoS5+YtGGVOSckg5PLHoO9XTd6TYoLmTULd41GQkUqu7fKowAOQfl74615roVE7NHoxq091JaFW8kMTXzKoY/2vcqATjr5Y/rVRbhSqSLbpv2Rleem84xnHaqmm6tDfteQ30iQvPcNdRsxwu5j8yk9ui4PTirl1LplpF/pNzGRhVVLV1mYgHjkNgAe5zXpuOp8xXpOVR2W5JaN9qmgSOBRI6IU9t2Ris7V9XtYrWW0sZBNJKNjzKpVFT0XPJz64HGeuabc69awQFNMil80p5YmmAUovT5VBPPvnj0zzWXp88Hlta3Kjy3OQ/dTVRh3NKNDl96S1KFFWb2ze0l2typ5VvUVWqzsCpFmlSMxrIyo3VQeDUdFAEiTSxoUSRlVuoBwDSNNI6KjSMyr0BPAplFAEgmlEZiEjBD1XPFOjuriNdqTOq+gaoans44pbpEmcJGepJxQIjE0ok8wSMH/vZ5/OjzZPN83zG8z+9nmteEWU961qlqjIB/rAxNNs9Pt2vblXy6READNOwrmYbmc7szOd3DfMefrTY5ZImLRuyE8ZU4rWtIrXUY5QLYQsmMFT65/wqvZrZx2TzzbZJQfljLY/SiwXKKyyJJ5iuyv/AHgeaQyOZPMLEvnO7POa1J7e3m0o3awiFx0APB5xUj28FpaQsLX7RJJjOc+maLBcyHmlkcO8jMw6EnJFEk0srBpJGZh0JOcVa1FbYbDCjRuR8yMCMfnVKgaJzeXJXabiTH+8ajjlkjDCORlDdcHGaZRSGSRTSw58qRkz12nGajoooAKKKKAJJJpZVVZHLBBhQe1R0UUAT2ckUdyrzx+Yg6rWu01kqlm02QAckmAVhLncMdc8VrzGWQ3JBMU6x/vYzypXHY9qaJZKLmwJUDT3JYZUeSOR7U37XppjL/YW2Zxu8oYz9aW3/wCPrT/+uB/lVV/K/sVvJ37fO/jxnOKZJnMQWJAwM8CkooqTQe8sjqqu7Mq8KCelMoooAKKKKACiiigAqW1ga5uEhU4LHr6VFTo5HicPGxVh0IoA2Jt9ipgsraQsR80u0nP0o0PcDcq+Q/GQeves37dd/wDPxJ/31UYmlEplEjBz1YHmquTbQ2NEjkhW4MqMg4+8MdM1V06xSWFrmYMyL0RRktVSS7uZV2vM7L6ZpI7qeJdsczqvoDSuFmWb+a6nX5oHigTou0gD61oXz3AsLdrXeSQMlBntWNJd3EqFHmdlPUE0RXVxCu2OZ1X0B4ouFjU1vm0ti/8ArO/r05rFp8kskrbpHZz6k5plD1GlYKKKKQwooooAKKKKACiiigArbt7d7m1VpNRf5xyu79OtYlSQSiGUOY1kHdWGQaaE1c2hpyqykX7AoMKcjgVSv7UWluqx3W9WbJT+tPfULPy/ksI9/uowKzCcsTxz6U3YSTEoooqSgooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//2Q==" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div class="template-body">
+        <div class="section-subheader">
+          <span>•</span> Technologies to be used (Programming Languages, Frameworks, Hardware)
+        </div>
+
+        <div class="card-grid-4" style="height: auto;">
+          <div class="box-card">
+            <div class="box-card-title">Frontend Core</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>React 18 & TypeScript:</strong> Strict compile-time typing, modular role architecture, zero runtime crashes.</div></div>
+          </div>
+          <div class="box-card emerald">
+            <div class="box-card-title">Open-Source GIS</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Leaflet & OSM:</strong> Zero API billing fees, custom SVG markers, locality auto-flyTo smooth camera animation.</div></div>
+          </div>
+          <div class="box-card amber">
+            <div class="box-card-title">Design System</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Tailwind CSS & Lucide:</strong> Strictly zero emojis, clinical iconography, 100dvh dynamic viewport support.</div></div>
+          </div>
+          <div class="box-card indigo">
+            <div class="box-card-title">Build & Delivery</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Vite 5 Bundler:</strong> 1.0s production build, gzip assets (&lt;155kB) optimized for low-bandwidth 2G/3G connectivity.</div></div>
+          </div>
+        </div>
+
+        <div class="section-subheader" style="margin-top: 4px;">
+          <span>•</span> Methodology and Process for Implementation (Data Flow & Architecture)
+        </div>
+
+        <div class="card-grid-4" style="height: auto;">
+          <div class="box-card rose">
+            <div class="box-card-title">Stage 1: Detect & SOS</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>1-Touch Distress SOS broadcast</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>4-Step crowdsourced hazard wizard</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Pre-filled locality coordinates</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Open meteorological feed ingestion</div></div>
+          </div>
+          <div class="box-card amber">
+            <div class="box-card-title">Stage 2: Verify & Triage</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Coordinator verification queue</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Reported → Verified lifecycle</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Severity weighting (Critical/High)</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Clustering of duplicate reports</div></div>
+          </div>
+          <div class="box-card emerald">
+            <div class="box-card-title">Stage 3: Dispatch & Relief</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Responder tactical mission queue</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Direct waypoint navigation to pins</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>NGO supply dispatch (water/food)</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Live shelter bed capacity monitoring</div></div>
+          </div>
+          <div class="box-card indigo">
+            <div class="box-card-title">Stage 4: Resolve & Audit</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Real-time status sync to citizens</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Incident lifecycle marked Resolved</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Complete audit trail for after-action</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Zone-level public safety analytics</div></div>
+          </div>
+        </div>
+
+        <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px; padding: 6px 12px; font-size: 9px; color: #1e3a8a; display: flex; align-items: center; justify-content: space-between;">
+          <span><strong>Working Prototype Status:</strong> Fully functional prototype running locally (http://localhost:3001/) and accessible over LAN on mobile smartphones (http://10.65.122.231:3001/).</span>
+        </div>
+      </div>
+
+      <div class="template-footer">
+        @SIH Idea submission- Template  3
+        <span class="footer-page-num">3</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: FEASIBILITY AND VIABILITY -->
+    <section class="slide" data-slide="4">
+      <div class="template-header">
+        <div class="team-badge-oval">Your<br>Team<br>Name</div>
+        <div class="slide-main-title">FEASIBILITY AND VIABILITY</div>
+        <img src="data:image/jpeg;base64,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" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div class="template-body">
+        <div class="card-grid-3">
+          <div class="box-card">
+            <div class="box-card-title">• Analysis of the Feasibility of the Idea</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Technical Feasibility:</strong> Built with zero proprietary dependencies. OpenStreetMap and Leaflet eliminate recurring map licensing fees. Operates in any browser across Android, iOS, Windows, and macOS.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Operational Feasibility:</strong> Role-based access ensures municipal staff, responders, NGOs, and citizens only see context-relevant tools, reducing onboarding and training to under 5 minutes.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Economic Viability:</strong> Saves municipal corporations crores in IT procurement; integrated non-intrusive civic sponsorships generate ongoing runway for cloud hosting and server maintenance.</div></div>
+          </div>
+
+          <div class="box-card rose">
+            <div class="box-card-title">• Potential Challenges and Risks</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Cell Tower / Grid Collapse:</strong> Severe storms, floods, or earthquakes can destroy physical cell towers and sever internet connectivity for victims.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Crowdsourced Misinformation:</strong> Panicked rumors, accidental duplicates, or malicious false hazard reports can mislead rescue teams and waste critical time.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Massive Traffic Spikes:</strong> Sudden concurrent access by tens of thousands of panicked citizens during peak disaster onset can crash centralized municipal servers.</div></div>
+          </div>
+
+          <div class="box-card emerald">
+            <div class="box-card-title">• Strategies for Overcoming Challenges</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Offline Caching & SMS Fallback:</strong> PWA service worker caches emergency shelter directories and phone helplines locally; planned Phase 2 SMS gateway and BLE mesh synchronization.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Coordinator Verification Gateway:</strong> All citizen submissions are isolated in 'Pending Verification' until verified by coordinators; 1-touch SOS beacons are prioritized automatically.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Stateless Edge Architecture:</strong> Static client-side React distribution across CDN edge nodes prevents backend bottlenecks and ensures 100% uptime during traffic surges.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-footer">
+        @SIH Idea submission- Template  4
+        <span class="footer-page-num">4</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: IMPACT AND BENEFITS -->
+    <section class="slide" data-slide="5">
+      <div class="template-header">
+        <div class="team-badge-oval">Your<br>Team<br>Name</div>
+        <div class="slide-main-title">IMPACT AND BENEFITS</div>
+        <img src="data:image/jpeg;base64,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" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div class="template-body">
+        <div class="section-subheader">
+          <span>•</span> Potential Impact on the Target Audience
+        </div>
+
+        <div class="card-grid-4" style="height: auto;">
+          <div class="box-card">
+            <div class="box-card-title">Citizens & Victims</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>65% faster emergency response dispatch</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Instant visibility of nearest shelters & clean water</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Zero address confusion during panic</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>1-tap direct phone dial to control rooms</div></div>
+          </div>
+
+          <div class="box-card emerald">
+            <div class="box-card-title">First Responders</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Direct tactical routing to verified locality pins</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Casualty and injury severity pre-triaged</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Zero wasted searches from drifting GPS chips</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Clear unit equipment & status tracking</div></div>
+          </div>
+
+          <div class="box-card amber">
+            <div class="box-card-title">Humanitarian NGOs</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Live visibility into shelter bed vacancies</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Targeted clean water & food tanker dispatch</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Elimination of duplicate volunteer missions</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Synchronized relief inventory logging</div></div>
+          </div>
+
+          <div class="box-card indigo">
+            <div class="box-card-title">DEOC Coordinators</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Unified GIS map replacing chaotic calls</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Macro municipal telemetry counters by zone</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Rapid multi-agency incident routing</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Complete audit trail for disaster reviews</div></div>
+          </div>
+        </div>
+
+        <div class="section-subheader" style="margin-top: 4px;">
+          <span>•</span> Benefits of the Solution (Social, Economic, Environmental, etc.)
+        </div>
+
+        <div class="card-grid-3" style="height: auto;">
+          <div class="box-card emerald">
+            <div class="box-card-title">Social Benefits</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Shortens golden-hour emergency rescue windows, directly saving human lives.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Protects vulnerable citizens (elderly, infants, patients) with rapid hospital routing.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Eliminates public panic via verified official warnings and shelter statuses.</div></div>
+          </div>
+
+          <div class="box-card">
+            <div class="box-card-title">Economic Benefits</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Zero proprietary license fees saves state disaster authorities crores in procurement.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Minimizes disaster infrastructure losses through fast coordinated hazard containment.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Civic sponsorship model creates an independent financial runway for cloud hosting.</div></div>
+          </div>
+
+          <div class="box-card indigo">
+            <div class="box-card-title">Environmental Benefits</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Accelerates containment of hazardous chemical leaks, fire perimeters, and toxic runoff.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Prevents contamination of municipal clean drinking water tanker supply depots.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div>Optimizes vehicle dispatch routing, reducing emergency vehicle fuel consumption.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-footer">
+        @SIH Idea submission- Template  5
+        <span class="footer-page-num">5</span>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: RESEARCH AND REFERENCES -->
+    <section class="slide" data-slide="6">
+      <div class="template-header">
+        <div class="team-badge-oval">Your<br>Team<br>Name</div>
+        <div class="slide-main-title">RESEARCH AND REFERENCES</div>
+        <img src="data:image/jpeg;base64,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" alt="SIH 2026" class="sih-header-logo" />
+      </div>
+
+      <div class="template-body">
+        <div class="section-subheader">
+          <span>•</span> Details / Links of the Reference and Research Work
+        </div>
+
+        <div class="card-grid-2">
+          <div class="box-card">
+            <div class="box-card-title">1. National Disaster Management Guidelines</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>National Disaster Management Authority (NDMA):</strong> National Disaster Management Plan (NDMP) and Incident Response System (IRS) guidelines for municipal emergency operations centers (https://ndma.gov.in/).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>National Institute of Disaster Management (NIDM):</strong> Frameworks for multi-hazard early warning and community-based disaster risk reduction (https://nidm.gov.in/).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Gujarat State Disaster Management Authority (GSDMA):</strong> District disaster management planning manuals and standard operating procedures (SOPs).</div></div>
+          </div>
+
+          <div class="box-card emerald">
+            <div class="box-card-title">2. Open-Source Geospatial & Web Standards</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>OpenStreetMap (OSM) Foundation:</strong> Open geospatial vector data and decentralized geographic mapping standards (https://www.openstreetmap.org/).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Leaflet.js Mapping Library:</strong> Leading open-source JavaScript library for mobile-friendly interactive mapping (https://leafletjs.com/).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>W3C Geolocation & Touch Specifications:</strong> Standards for emergency human-computer interaction and mobile ergonomics.</div></div>
+          </div>
+
+          <div class="box-card amber">
+            <div class="box-card-title">3. Crisis Informatics & Academic Studies</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Harvard Humanitarian Initiative (HHI):</strong> Research on 'Disaster Relief 2.0: The Future of Information Sharing in Humanitarian Emergencies'.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>UN OCHA:</strong> Guidelines on crowdsourced disaster data verification, crisis mapping, and humanitarian response coordination (https://www.unocha.org/).</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>IEEE Disaster Informatics:</strong> Benchmarks comparing deterministic locality geocoding against GPS sensor drift in dense urban environments.</div></div>
+          </div>
+
+          <div class="box-card indigo">
+            <div class="box-card-title">4. Working Prototype Implementation</div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Smart India Hackathon 2026:</strong> Problem Statement ID: 26206 | Theme: Disaster Management | Category: Software.</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Live Prototype Deployment:</strong> Localhost Desktop: http://localhost:3001/ | Mobile Phone LAN View: http://10.65.122.231:3001/</div></div>
+            <div class="bullet-item"><span class="bullet-dot">•</span><div><strong>Codebase & Verification:</strong> React 18 + TypeScript + Vite 5 + Tailwind CSS; verified clean production build (`dist/`) with strictly zero emojis.</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="template-footer">
+        @SIH Idea submission- Template  6
+        <span class="footer-page-num">6</span>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Interactive Navigation Controls -->
+  <div class="controls">
+    <button class="ctrl-btn" onclick="prevSlide()" title="Previous Slide (Left Arrow)">Previous</button>
+    <div class="slide-indicator" id="slide-num">1 / 6</div>
+    <button class="ctrl-btn primary" onclick="nextSlide()" title="Next Slide (Right Arrow or Space)">Next</button>
+    <button class="ctrl-btn" onclick="toggleFullscreen()" title="Fullscreen (F)">Fullscreen</button>
+    <button class="ctrl-btn" onclick="window.print()" title="Print to PDF (Cmd+P)">Print / Save PDF</button>
+  </div>
+
+  <script>
+    let currentSlide = 1;
+    const totalSlides = 6;
+    const slides = document.querySelectorAll('.slide');
+    const slideIndicator = document.getElementById('slide-num');
+
+    function updateSlide() {
+      slides.forEach((s, idx) => {
+        if (idx + 1 === currentSlide) {
+          s.classList.add('active');
+        } else {
+          s.classList.remove('active');
+        }
+      });
+      slideIndicator.textContent = currentSlide + ' / ' + totalSlides;
+    }
+
+    function nextSlide() {
+      if (currentSlide < totalSlides) {
+        currentSlide++;
+        updateSlide();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 1) {
+        currentSlide--;
+        updateSlide();
+      }
+    }
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(() => {});
+      } else {
+        if (document.exitFullscreen) {
+          document.exitFullscreen();
+        }
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault();
+        nextSlide();
+      } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+        e.preventDefault();
+        prevSlide();
+      } else if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        toggleFullscreen();
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        currentSlide = 1;
+        updateSlide();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        currentSlide = totalSlides;
+        updateSlide();
+      }
+    });
+
+    updateSlide();
+  </script>
+</body>
+</html>
