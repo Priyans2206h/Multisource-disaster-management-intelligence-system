@@ -227,6 +227,8 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     // Locality coordinates are set via setSelectedLocality
   }, []);
 
+  const [selectedIncidentId, setSelectedIncidentId] = useState<string | null>('104');
+
   const setSelectedCity = useCallback((cityName: string) => {
     const targetCity = supportedCities.find((c) => c.name === cityName);
     if (!targetCity) return;
@@ -235,12 +237,14 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     const firstLocality = targetCity.localities[0]?.name || '';
     setSelectedLocalityState(firstLocality);
     localStorage.setItem('disaster_selected_locality', firstLocality);
+    setSelectedIncidentId('104');
     addAuditLog('CITY_CHANGED', cityName, `Operational city switched to ${cityName} (Locality: ${firstLocality}).`);
   }, [supportedCities]);
 
   const setSelectedLocality = useCallback((localityName: string) => {
     setSelectedLocalityState(localityName);
     localStorage.setItem('disaster_selected_locality', localityName);
+    setSelectedIncidentId('104');
     addAuditLog('LOCALITY_CHANGED', localityName, `Operational locality updated to ${localityName} (${selectedCity}).`);
   }, [selectedCity]);
 
@@ -267,22 +271,56 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const [activeNav, setActiveNav] = useState<string>('overview');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [soundEnabled, setSoundEnabled] = useState<boolean>(true);
-  const [selectedIncidentId, setSelectedIncidentId] = useState<string | null>('104');
 
-  // Core collections initialized from mock data
+  // Core collections initialized from mock data and synchronized to active locality
   const [incidents, setIncidents] = useState<Incident[]>(() => {
     const saved = localStorage.getItem('disaster_incidents');
-    return saved ? JSON.parse(saved) : INITIAL_INCIDENTS;
+    const raw: Incident[] = saved ? JSON.parse(saved) : INITIAL_INCIDENTS;
+    const initialLocName = `${activeLocalityInfo.name}, ${selectedCity}, ${activeCityInfo?.state || 'Gujarat'}`;
+    return raw.map((inc) => {
+      if (inc.id === '104') {
+        return {
+          ...inc,
+          locationName: initialLocName,
+          latitude: activeLocalityInfo.latitude,
+          longitude: activeLocalityInfo.longitude,
+          ngoInstructions: `Deploy 2 inflatable rescue boats to ${activeLocalityInfo.name}; evacuate 12 stranded residents and provide immediate hot meals.`,
+        };
+      }
+      return inc;
+    });
   });
 
   const [sosRequests, setSosRequests] = useState<SosRequest[]>(() => {
     const saved = localStorage.getItem('disaster_sos');
-    return saved ? JSON.parse(saved) : INITIAL_SOS_REQUESTS;
+    const raw: SosRequest[] = saved ? JSON.parse(saved) : INITIAL_SOS_REQUESTS;
+    return raw.map((sos) => {
+      if (sos.id === 'SOS-891') {
+        return {
+          ...sos,
+          locationName: `${activeLocalityInfo.name} Shivalik Park, Flat 201, ${selectedCity}`,
+          latitude: activeLocalityInfo.latitude + 0.001,
+          longitude: activeLocalityInfo.longitude - 0.001,
+        };
+      }
+      return sos;
+    });
   });
 
   const [resources, setResources] = useState<Resource[]>(() => {
     const saved = localStorage.getItem('disaster_resources');
-    return saved ? JSON.parse(saved) : INITIAL_RESOURCES;
+    const raw: Resource[] = saved ? JSON.parse(saved) : INITIAL_RESOURCES;
+    return raw.map((res) => {
+      if (res.assignedIncidentId === '104') {
+        return {
+          ...res,
+          latitude: activeLocalityInfo.latitude + (res.id === 'res-amb-02' ? 0.0005 : -0.0005),
+          longitude: activeLocalityInfo.longitude + (res.id === 'res-amb-02' ? 0.0005 : -0.0005),
+          locationZone: `${activeLocalityInfo.name} Sector`,
+        };
+      }
+      return res;
+    });
   });
 
   const [alerts, setAlerts] = useState<EmergencyAlert[]>(() => {
@@ -336,6 +374,73 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     localStorage.setItem('disaster_logs', JSON.stringify(auditLogs));
   }, [auditLogs]);
+
+  // Dynamically synchronize Incident #104, SOS-891, and assigned resources to active locality & city
+  useEffect(() => {
+    if (!activeLocalityInfo) return;
+    const targetLocName = `${activeLocalityInfo.name}, ${selectedCity}, ${activeCityInfo?.state || 'Gujarat'}`;
+
+    setIncidents((prev) => {
+      const target = prev.find((i) => i.id === '104');
+      if (
+        target &&
+        target.locationName === targetLocName &&
+        Math.abs(target.latitude - activeLocalityInfo.latitude) < 0.0001 &&
+        Math.abs(target.longitude - activeLocalityInfo.longitude) < 0.0001
+      ) {
+        return prev;
+      }
+      return prev.map((inc) => {
+        if (inc.id === '104') {
+          return {
+            ...inc,
+            locationName: targetLocName,
+            latitude: activeLocalityInfo.latitude,
+            longitude: activeLocalityInfo.longitude,
+            ngoInstructions: `Deploy 2 inflatable rescue boats to ${activeLocalityInfo.name}; evacuate 12 stranded residents and provide immediate hot meals.`,
+          };
+        }
+        return inc;
+      });
+    });
+
+    setSosRequests((prev) => {
+      const target = prev.find((s) => s.id === 'SOS-891');
+      const targetSosLocName = `${activeLocalityInfo.name} Shivalik Park, Flat 201, ${selectedCity}`;
+      if (
+        target &&
+        target.locationName === targetSosLocName &&
+        Math.abs(target.latitude - activeLocalityInfo.latitude) < 0.0001
+      ) {
+        return prev;
+      }
+      return prev.map((sos) => {
+        if (sos.id === 'SOS-891') {
+          return {
+            ...sos,
+            locationName: targetSosLocName,
+            latitude: activeLocalityInfo.latitude + 0.001,
+            longitude: activeLocalityInfo.longitude - 0.001,
+          };
+        }
+        return sos;
+      });
+    });
+
+    setResources((prev) => {
+      return prev.map((res) => {
+        if (res.assignedIncidentId === '104') {
+          return {
+            ...res,
+            latitude: activeLocalityInfo.latitude + (res.id === 'res-amb-02' ? 0.0005 : -0.0005),
+            longitude: activeLocalityInfo.longitude + (res.id === 'res-amb-02' ? 0.0005 : -0.0005),
+            locationZone: `${activeLocalityInfo.name} Sector`,
+          };
+        }
+        return res;
+      });
+    });
+  }, [activeLocalityInfo, selectedCity, activeCityInfo]);
 
   // Selected incident object
   const selectedIncident = incidents.find((i) => i.id === selectedIncidentId) || null;

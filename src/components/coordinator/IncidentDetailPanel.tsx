@@ -28,6 +28,9 @@ interface IncidentDetailPanelProps {
 export const IncidentDetailPanel: React.FC<IncidentDetailPanelProps> = ({ onClose }) => {
   const {
     selectedIncident,
+    selectedCity,
+    activeCityInfo,
+    activeLocalityInfo,
     resources,
     ngoOrganizations,
     dispatchIncidentToNgo,
@@ -49,6 +52,18 @@ export const IncidentDetailPanel: React.FC<IncidentDetailPanelProps> = ({ onClos
   const [targetStatus, setTargetStatus] = useState<IncidentStatus>('IN PROGRESS');
 
   if (!selectedIncident) return null;
+
+  // Primary showcase incident dynamically mirrors the active operational locality and city
+  const isLocalitySyncIncident = selectedIncident.id === '104';
+  const displayLocationName = (isLocalitySyncIncident && activeLocalityInfo)
+    ? `${activeLocalityInfo.name}, ${selectedCity}, ${activeCityInfo?.state || 'Gujarat'}`
+    : selectedIncident.locationName;
+  const displayLatitude = (isLocalitySyncIncident && activeLocalityInfo)
+    ? activeLocalityInfo.latitude
+    : selectedIncident.latitude;
+  const displayLongitude = (isLocalitySyncIncident && activeLocalityInfo)
+    ? activeLocalityInfo.longitude
+    : selectedIncident.longitude;
 
   // Available resources to assign
   const availableResources = resources.filter((r) => r.status === 'AVAILABLE');
@@ -169,9 +184,9 @@ export const IncidentDetailPanel: React.FC<IncidentDetailPanelProps> = ({ onClos
             <div className="text-[10px] font-bold text-slate-400 uppercase flex items-center gap-1">
               <MapPin className="w-3 h-3 text-slate-500" /> Location
             </div>
-            <div className="font-semibold text-slate-900 mt-0.5">{selectedIncident.locationName}</div>
+            <div className="font-semibold text-slate-900 mt-0.5">{displayLocationName}</div>
             <div className="text-[10px] text-slate-400">
-              {selectedIncident.latitude.toFixed(4)}° N, {selectedIncident.longitude.toFixed(4)}° E
+              {displayLatitude.toFixed(4)}° N, {displayLongitude.toFixed(4)}° E
             </div>
           </div>
 
