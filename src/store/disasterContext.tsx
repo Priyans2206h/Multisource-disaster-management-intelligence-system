@@ -29,6 +29,7 @@ import {
   INITIAL_EMERGENCY_HELPS,
   NGO_ORGANIZATIONS,
   NgoOrganization,
+  getLocalityEvidenceImage,
 } from '../mockData';
 
 export interface UserCoordinates {
@@ -277,6 +278,7 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     const saved = localStorage.getItem('disaster_incidents');
     const raw: Incident[] = saved ? JSON.parse(saved) : INITIAL_INCIDENTS;
     const initialLocName = `${activeLocalityInfo.name}, ${selectedCity}, ${activeCityInfo?.state || 'Gujarat'}`;
+    const initialEvidenceUrl = getLocalityEvidenceImage(activeLocalityInfo.name, selectedCity);
     return raw.map((inc) => {
       if (inc.id === '104') {
         return {
@@ -284,6 +286,7 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
           locationName: initialLocName,
           latitude: activeLocalityInfo.latitude,
           longitude: activeLocalityInfo.longitude,
+          evidenceUrl: initialEvidenceUrl,
           ngoInstructions: `Deploy 2 inflatable rescue boats to ${activeLocalityInfo.name}; evacuate 12 stranded residents and provide immediate hot meals.`,
         };
       }
@@ -379,12 +382,14 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     if (!activeLocalityInfo) return;
     const targetLocName = `${activeLocalityInfo.name}, ${selectedCity}, ${activeCityInfo?.state || 'Gujarat'}`;
+    const targetEvidenceUrl = getLocalityEvidenceImage(activeLocalityInfo.name, selectedCity);
 
     setIncidents((prev) => {
       const target = prev.find((i) => i.id === '104');
       if (
         target &&
         target.locationName === targetLocName &&
+        target.evidenceUrl === targetEvidenceUrl &&
         Math.abs(target.latitude - activeLocalityInfo.latitude) < 0.0001 &&
         Math.abs(target.longitude - activeLocalityInfo.longitude) < 0.0001
       ) {
@@ -397,6 +402,7 @@ export const DisasterProvider: React.FC<{ children: React.ReactNode }> = ({ chil
             locationName: targetLocName,
             latitude: activeLocalityInfo.latitude,
             longitude: activeLocalityInfo.longitude,
+            evidenceUrl: targetEvidenceUrl,
             ngoInstructions: `Deploy 2 inflatable rescue boats to ${activeLocalityInfo.name}; evacuate 12 stranded residents and provide immediate hot meals.`,
           };
         }

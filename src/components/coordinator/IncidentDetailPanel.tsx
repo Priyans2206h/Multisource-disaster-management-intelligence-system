@@ -20,6 +20,7 @@ import { useDisaster } from '../../store/disasterContext';
 import { SeverityBadge } from '../common/SeverityBadge';
 import { StatusBadge } from '../common/StatusBadge';
 import { IncidentStatus, Severity } from '../../types';
+import { getLocalityEvidenceImage, getLocalityFallbackImage } from '../../mockData';
 
 interface IncidentDetailPanelProps {
   onClose: () => void;
@@ -64,6 +65,12 @@ export const IncidentDetailPanel: React.FC<IncidentDetailPanelProps> = ({ onClos
   const displayLongitude = (isLocalitySyncIncident && activeLocalityInfo)
     ? activeLocalityInfo.longitude
     : selectedIncident.longitude;
+  const displayEvidenceUrl = (isLocalitySyncIncident && activeLocalityInfo)
+    ? getLocalityEvidenceImage(activeLocalityInfo.name, selectedCity)
+    : selectedIncident.evidenceUrl;
+  const fallbackEvidenceUrl = (isLocalitySyncIncident && activeLocalityInfo)
+    ? getLocalityFallbackImage(activeLocalityInfo.name, selectedCity)
+    : 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=800&q=80';
 
   // Available resources to assign
   const availableResources = resources.filter((r) => r.status === 'AVAILABLE');
@@ -202,16 +209,27 @@ export const IncidentDetailPanel: React.FC<IncidentDetailPanelProps> = ({ onClos
         </div>
 
         {/* Evidence Photo if present */}
-        {selectedIncident.evidenceUrl && (
+        {displayEvidenceUrl && (
           <div>
-            <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mb-1.5">
-              Citizen Photo Evidence
-            </span>
-            <div className="rounded-lg overflow-hidden border border-slate-200 max-h-36 bg-slate-100">
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">
+                Citizen Photo Evidence
+              </span>
+              <span className="text-[9px] font-bold text-blue-700 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200 uppercase tracking-wide">
+                {activeLocalityInfo?.name || displayLocationName.split(',')[0]} Sector
+              </span>
+            </div>
+            <div className="rounded-lg overflow-hidden border border-slate-200 max-h-40 bg-slate-100 shadow-sm relative group">
               <img
-                src={selectedIncident.evidenceUrl}
-                alt="Incident evidence"
-                className="w-full h-full object-cover"
+                key={displayEvidenceUrl}
+                src={displayEvidenceUrl}
+                alt={`Incident evidence for ${displayLocationName}`}
+                onError={(e) => {
+                  if (e.currentTarget.src !== fallbackEvidenceUrl) {
+                    e.currentTarget.src = fallbackEvidenceUrl;
+                  }
+                }}
+                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
           </div>

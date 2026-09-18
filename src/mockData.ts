@@ -27,7 +27,7 @@ export const INITIAL_INCIDENTS: Incident[] = [
       { id: 't3', time: '14:38', label: 'Assigned', status: 'ASSIGNED', note: 'Ambulance 02 and Rescue Team 4 dispatched' },
       { id: 't4', time: '14:45', label: 'In Progress', status: 'IN PROGRESS', note: 'Rescue boats launched; 14 people safely evacuated to relief camp' },
     ],
-    evidenceUrl: 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=600&q=80',
+    evidenceUrl: '/images/evidence/paldi.jpg',
     createdAt: '2026-09-08T14:32:00Z',
     updatedAt: '2026-09-08T14:45:00Z',
   },
@@ -682,6 +682,133 @@ export const SUPPORTED_CITIES: CityInfo[] = [
     ],
   },
 ];
+
+export const LOCALITY_EVIDENCE_MAP: Record<string, { local: string; remote: string }> = {
+  'Paldi': {
+    local: '/images/evidence/paldi.jpg',
+    remote: 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=800&q=80',
+  },
+  'Maninagar': {
+    local: '/images/evidence/maninagar.jpg',
+    remote: 'https://images.unsplash.com/photo-1605721911519-3dfeb3be25e7?auto=format&fit=crop&w=800&q=80',
+  },
+  'Navrangpura': {
+    local: '/images/evidence/navrangpura.jpg',
+    remote: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=800&q=80',
+  },
+  'Usmanpura': {
+    local: '/images/evidence/usmanpura.jpg',
+    remote: 'https://images.unsplash.com/photo-1545063914-a1a6ec821c88?auto=format&fit=crop&w=800&q=80',
+  },
+  'Riverfront Corridor': {
+    local: '/images/evidence/riverfront.jpg',
+    remote: 'https://images.unsplash.com/photo-1545063914-a1a6ec821c88?auto=format&fit=crop&w=800&q=80',
+  },
+  'Chandkheda': {
+    local: '/images/evidence/chandkheda.jpg',
+    remote: 'https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?auto=format&fit=crop&w=800&q=80',
+  },
+  'Satellite': {
+    local: '/images/evidence/satellite.jpg',
+    remote: 'https://images.unsplash.com/photo-1569163139599-0f4517e36f51?auto=format&fit=crop&w=800&q=80',
+  },
+  'Bopal': {
+    local: '/images/evidence/bopal.jpg',
+    remote: 'https://images.unsplash.com/photo-1514632595-4944383f2737?auto=format&fit=crop&w=800&q=80',
+  },
+  'Sarkhej': {
+    local: '/images/evidence/sarkhej.jpg',
+    remote: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80',
+  },
+  'Adajan': {
+    local: '/images/evidence/surat.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Rander': {
+    local: '/images/evidence/surat.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Varachha': {
+    local: '/images/evidence/surat.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Katargam': {
+    local: '/images/evidence/surat.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Surat': {
+    local: '/images/evidence/surat.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Alkapuri': {
+    local: '/images/evidence/vadodara.jpg',
+    remote: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80',
+  },
+  'Sayajigunj': {
+    local: '/images/evidence/vadodara.jpg',
+    remote: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80',
+  },
+  'Vadodara': {
+    local: '/images/evidence/vadodara.jpg',
+    remote: 'https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80',
+  },
+  'Kalawad Road': {
+    local: '/images/evidence/rajkot.jpg',
+    remote: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80',
+  },
+  'Rajkot': {
+    local: '/images/evidence/rajkot.jpg',
+    remote: 'https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=800&q=80',
+  },
+  'Mumbai': {
+    local: '/images/evidence/mumbai.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Dadar': {
+    local: '/images/evidence/mumbai.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Bandra': {
+    local: '/images/evidence/mumbai.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Andheri': {
+    local: '/images/evidence/mumbai.jpg',
+    remote: 'https://images.unsplash.com/photo-1527482797697-8795b05a13fe?auto=format&fit=crop&w=800&q=80',
+  },
+  'Delhi NCR': {
+    local: '/images/evidence/chandkheda.jpg',
+    remote: 'https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?auto=format&fit=crop&w=800&q=80',
+  },
+  'Connaught Place': {
+    local: '/images/evidence/chandkheda.jpg',
+    remote: 'https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?auto=format&fit=crop&w=800&q=80',
+  },
+  'default': {
+    local: '/images/evidence/default.jpg',
+    remote: 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=800&q=80',
+  },
+};
+
+export const getLocalityEvidenceImage = (localityName?: string, cityName?: string): string => {
+  if (localityName && LOCALITY_EVIDENCE_MAP[localityName]) {
+    return LOCALITY_EVIDENCE_MAP[localityName].local;
+  }
+  if (cityName && LOCALITY_EVIDENCE_MAP[cityName]) {
+    return LOCALITY_EVIDENCE_MAP[cityName].local;
+  }
+  return '/images/evidence/default.jpg';
+};
+
+export const getLocalityFallbackImage = (localityName?: string, cityName?: string): string => {
+  if (localityName && LOCALITY_EVIDENCE_MAP[localityName]) {
+    return LOCALITY_EVIDENCE_MAP[localityName].remote;
+  }
+  if (cityName && LOCALITY_EVIDENCE_MAP[cityName]) {
+    return LOCALITY_EVIDENCE_MAP[cityName].remote;
+  }
+  return 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=800&q=80';
+};
 
 export const INITIAL_SHELTERS: Shelter[] = [
   // Ahmedabad Shelters
